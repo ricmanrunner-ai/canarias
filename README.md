@@ -49,6 +49,7 @@ Este repositorio no es una guía para turistas de pulsera. Las reglas que sigue:
 README.md          ← esto
 vuelos.md          ← matriz de vuelos + cómo llegar a las islas sin directo
 mis-viajes.md      ← diario de viajes y lista de deseos
+viajes/            ← planes detallados día a día
 islas/*.md         ← una ficha por isla: sitios con ambiente y prioridad, dónde dormir, comer, fiestas, qué evitar
 data/vuelos.csv    ← datos de rutas (para filtrar / actualizar)
 data/sitios.csv    ← todos los sitios en una tabla (se genera con scripts/generar_sitios.py)

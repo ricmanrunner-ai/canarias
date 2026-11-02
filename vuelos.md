@@ -9,7 +9,7 @@
 |---|---|---|---|
 | **Tenerife Norte (TFN)** | Iberia Express, Air Europa, Binter, Vueling — varios diarios | Binter — verificar frecuencia | Vueling — verificar |
 | **Tenerife Sur (TFS)** | Iberia Express, Ryanair, Air Europa — varios diarios | Ryanair — verificar (recortes 2026) | Vueling / Ryanair — verificar |
-| **Gran Canaria (LPA)** | Iberia Express, Air Europa, Ryanair, Binter — muchos diarios | Binter (3/semana) + Vueling (estacional) | Vueling (+ Air Europa según agregadores) |
+| **Gran Canaria (LPA)** | Iberia Express, Air Europa, Ryanair, Binter — muchos diarios | Binter (jue, vie, dom) + Vueling (estacional) | Vueling (+ Air Europa según agregadores) |
 | **Lanzarote (ACE)** | Iberia Express (varios diarios), Ryanair, Binter | **Binter, martes y sábados** (nueva desde 31/03/2026) | Vueling estacional — verificar |
 | **Fuerteventura (FUE)** | Iberia Express, Ryanair, Binter | ❌ escala | Estacional — verificar |
 | **La Palma (SPC)** | Iberia Express (diario), Vueling/Iberia estacional | ❌ escala (TFN o LPA) | ❌ escala |

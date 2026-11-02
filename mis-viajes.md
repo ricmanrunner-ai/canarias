@@ -8,7 +8,8 @@
 
 ## Ideas de próximos viajes
 
-### A) Gran Canaria (7 días): la siguiente lógica
+### A) Gran Canaria (9 días): la siguiente lógica
+➡️ **Plan detallado desde Santander:** [viajes/gran-canaria-desde-santander.md](viajes/gran-canaria-desde-santander.md)
 - **Vuelo:** directo desde MAD, SDR (Binter) o BIO (Vueling).
 - D1–2 Las Palmas (Vegueta, Las Canteras) · D3 Norte (Teror, Arucas, Gáldar–Cueva Pintada, Agaete) · D4 Cumbre (Roque Nublo, Tejeda, Pico de las Nieves) · D5 Artenara + Tamadaba · D6 Sur (Maspalomas, Mogán) · D7 Bandama/Guayadeque.
 
