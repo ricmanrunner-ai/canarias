@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Canarias fuera de ruta</name>
+<Style id="joya-local"><IconStyle><color>ff1d4fd9</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="tranquilo"><IconStyle><color>ff4d8a2e</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Style id="concurrido"><IconStyle><color>ff8a8a8a</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle></Style>
+<Folder><name>Tenerife</name>
+<Placemark><name>Chamorga → Faro de Anaga → Roque Bermejo</name><description>Ruta · joya local · ★★★
+
+El fin del mundo tinerfeño. Caserío sin carretera junto al mar, a 2 h a pie desde el último pueblo con guagua.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-16.15907,28.56996,0</coordinates></Point></Placemark>
+<Placemark><name>Afur → Playa de Tamadite</name><description>Ruta/playa · joya local · ★★★
+
+Barranco con agua corriente hasta una playa de callaos. Caserío de Afur, con un bar donde comer.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-16.24792,28.55526,0</coordinates></Point></Placemark>
+<Placemark><name>Taganana y El Draguillo</name><description>Pueblo · tranquilo · ★★
+
+Pescado en Almáciga o Roque de las Bodegas. El Draguillo es un caserío sin luz de red.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.21779,28.56096,0</coordinates></Point></Placemark>
+<Placemark><name>Teno Alto (Los Bailaderos)</name><description>Pueblo/ruta · joya local · ★★★
+
+Meseta ganadera aislada. Queso de cabra artesano y bajada al Risco de Teno.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-16.87674,28.34343,0</coordinates></Point></Placemark>
+<Placemark><name>Masca</name><description>Pueblo · concurrido · ★★
+
+Ve al amanecer o a última hora para evitar los autobuses. El barranco necesita reserva.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-16.8405,28.30526,0</coordinates></Point></Placemark>
+<Placemark><name>Paisaje Lunar (Vilaflor)</name><description>Ruta · joya local · ★★★
+
+Chimeneas de toba blanca entre pinares. Por el camino, el Pino Gordo.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-16.61926,28.17141,0</coordinates></Point></Placemark>
+<Placemark><name>Teide al amanecer o con permiso nocturno</name><description>Montaña · concurrido · ★★★
+
+Sube a pie desde Montaña Blanca y duerme en el Refugio de Altavista para ver el amanecer en la cima. Así no necesitas permiso ni teleférico.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-16.62939,28.27414,0</coordinates></Point></Placemark>
+<Placemark><name>Sombra del Teide desde Guajara</name><description>Montaña · tranquilo · ★★
+
+La tercera cumbre de la isla, poca gente y vista frontal del Teide.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.604,28.216,0</coordinates></Point></Placemark>
+<Placemark><name>Chinyero y Arguayo</name><description>Ruta/cultura · tranquilo · ★★
+
+Volcán de 1909 entre pinos. En Arguayo, centro alfarero de cerámica sin torno.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.80705,28.26803,0</coordinates></Point></Placemark>
+<Placemark><name>Charco del Viento (La Guancha)</name><description>Piscina natural · joya local · ★★
+
+Charcos entre coladas, frecuentados por gente local.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-16.67362,28.40122,0</coordinates></Point></Placemark>
+<Placemark><name>Charco de la Laja (San Juan de la Rambla)</name><description>Piscina natural · joya local · ★★
+
+Solo con mar en calma.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-16.65187,28.3963,0</coordinates></Point></Placemark>
+<Placemark><name>Rambla de Castro y Playa de El Bollullo</name><description>Costa · tranquilo · ★★
+
+Sendero costero entre palmerales y fortines. Arena negra.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.59216,28.39663,0</coordinates></Point></Placemark>
+<Placemark><name>Punta del Hidalgo y Roque de los Dos Hermanos</name><description>Costa · tranquilo · ★★
+
+Atardecer junto al faro moderno y piscinas. Desde allí sale la ruta de Chinamada.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.32174,28.5692,0</coordinates></Point></Placemark>
+<Placemark><name>Chinamada</name><description>Pueblo · joya local · ★★
+
+Casas-cueva habitadas en Anaga.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-16.29115,28.56194,0</coordinates></Point></Placemark>
+<Placemark><name>Malpaís de Güímar</name><description>Volcán/costa · tranquilo · ★★
+
+Reserva de coladas y tabaibas junto al mar. Al lado, Puertito de Güímar para comer pescado.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.36793,28.30935,0</coordinates></Point></Placemark>
+<Placemark><name>Lagunas de Erjos</name><description>Naturaleza · joya local · ★
+
+Charcas estacionales en el monte del noroeste.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-16.80952,28.31865,0</coordinates></Point></Placemark>
+<Placemark><name>Playa de La Tejita y Montaña Roja</name><description>Playa · tranquilo · ★★
+
+La mejor playa de arena del sur sin hoteles encima.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.5514,28.02911,0</coordinates></Point></Placemark>
+<Placemark><name>Punta de Teno</name><description>Costa · concurrido · ★★
+
+Coches restringidos: ve en bici o guagua.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-16.92286,28.34209,0</coordinates></Point></Placemark>
+<Placemark><name>La Laguna de noche</name><description>Ciudad · tranquilo · ★★★
+
+Ambiente universitario en la calle Herradores y el Cuadrilátero. Es el "Tenerife real".</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.31594,28.48577,0</coordinates></Point></Placemark>
+<Placemark><name>Mercado de Nuestra Señora de África (Santa Cruz)</name><description>Gastro · tranquilo · ★★
+
+Sábado por la mañana, con barras de pescado y vino.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-16.25168,28.46298,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Gran Canaria</name>
+<Placemark><name>Acusa Seca y Acusa Verde</name><description>Pueblo · joya local · ★★★
+
+Casas-cueva habitadas colgadas sobre los riscos de Artenara.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.67961,28.00636,0</coordinates></Point></Placemark>
+<Placemark><name>Risco Caído y las montañas sagradas</name><description>Cultura · joya local · ★★★
+
+Patrimonio UNESCO poco visitado. Almogarén aborigen y cuevas. Centro de interpretación en Artenara.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.6616,28.04478,0</coordinates></Point></Placemark>
+<Placemark><name>Roque Bentayga</name><description>Montaña/cultura · tranquilo · ★★★
+
+Menos gente que el Nublo y con restos aborígenes.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.64176,27.99152,0</coordinates></Point></Placemark>
+<Placemark><name>El Carrizal de Tejeda → Presa del Parralillo</name><description>Ruta · joya local · ★★
+
+Barranco de Tejeda hacia el oeste, sin turismo.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.68062,27.98031,0</coordinates></Point></Placemark>
+<Placemark><name>Fortaleza de Ansite (Santa Lucía)</name><description>Cultura · joya local · ★★
+
+Lugar de la última resistencia aborigen. Cuevas atravesables.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.52849,27.88294,0</coordinates></Point></Placemark>
+<Placemark><name>Cenobio de Valerón</name><description>Cultura · tranquilo · ★★
+
+Granero aborigen con cientos de silos excavados en toba.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.60444,28.13896,0</coordinates></Point></Placemark>
+<Placemark><name>Cuatro Puertas (Telde)</name><description>Cultura · joya local · ★★
+
+Cueva ceremonial, gratis y a menudo vacía.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.41836,27.95894,0</coordinates></Point></Placemark>
+<Placemark><name>Barranco de Azuaje</name><description>Naturaleza · joya local · ★★
+
+Reducto de laurisilva con agua corriente y un antiguo balneario.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.57102,28.10892,0</coordinates></Point></Placemark>
+<Placemark><name>Los Tilos de Moya</name><description>Naturaleza · tranquilo · ★
+
+El último bosque de laurisilva del norte.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.59484,28.09451,0</coordinates></Point></Placemark>
+<Placemark><name>Temisas y Agüimes</name><description>Pueblo · joya local · ★★★
+
+Olivares y casas de piedra en Temisas. El casco de Agüimes es precioso y apenas tiene turistas.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.488,27.93,0</coordinates></Point></Placemark>
+<Placemark><name>Guayadeque</name><description>Barranco · tranquilo · ★★
+
+Cuevas habitadas y restaurantes-cueva.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.46547,27.93003,0</coordinates></Point></Placemark>
+<Placemark><name>Fataga y su barranco</name><description>Pueblo · tranquilo · ★★
+
+El "barranco de las mil palmeras".</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.56384,27.8872,0</coordinates></Point></Placemark>
+<Placemark><name>Presa de Chira y Soria</name><description>Paisaje · tranquilo · ★★
+
+Pinar y agua en la cumbre sur.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.64108,27.90543,0</coordinates></Point></Placemark>
+<Placemark><name>El Hornillo (Agaete)</name><description>Pueblo · joya local · ★★
+
+Caserío-cueva en el fondo de un barranco, al final de una carretera estrecha.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.66065,28.0558,0</coordinates></Point></Placemark>
+<Placemark><name>El Risco de Agaete y Playa de El Risco</name><description>Pueblo/playa · joya local · ★★
+
+Pueblo del oeste salvaje con playa de callaos al pie del acantilado.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.72638,28.04675,0</coordinates></Point></Placemark>
+<Placemark><name>Playa de Güigüí</name><description>Playa · joya local · ★★★
+
+Ruta dura desde Tasartico (≈3 h ida) o en barco desde Agaete. Duerme allí con permiso de acampada.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.82786,27.94523,0</coordinates></Point></Placemark>
+<Placemark><name>Tamadaba y Faneque</name><description>Pinar/ruta · tranquilo · ★★
+
+Acantilado de 1.000 m sobre el mar, de los más altos de Europa.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.675,28.05,0</coordinates></Point></Placemark>
+<Placemark><name>Sardina del Norte (Gáldar)</name><description>Playa · tranquilo · ★★
+
+Cala de pescadores, buen snorkel y atardecer.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.7079,28.16471,0</coordinates></Point></Placemark>
+<Placemark><name>Playa del Cabrón (Arinaga)</name><description>Buceo · joya local · ★★
+
+Reserva de buceo de la gente local.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.38643,27.87085,0</coordinates></Point></Placemark>
+<Placemark><name>Pozo Izquierdo</name><description>Costa/deporte · tranquilo · ★
+
+Viento extremo, windsurf de élite y nada de turismo.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-15.42302,27.82495,0</coordinates></Point></Placemark>
+<Placemark><name>Atalaya de Santa Brígida</name><description>Pueblo · joya local · ★
+
+Alfarería tradicional en cuevas.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-15.473,28.043,0</coordinates></Point></Placemark>
+<Placemark><name>Vegueta, mercado y Las Canteras</name><description>Ciudad · concurrido · ★★★
+
+Las Palmas es una ciudad de verdad. Paseo de Las Canteras al atardecer, entre locales.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-15.41994,28.09912,0</coordinates></Point></Placemark>
+<Placemark><name>Cueva Pintada de Gáldar</name><description>Cultura · concurrido · ★★★
+
+Reservar.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-15.65508,28.14402,0</coordinates></Point></Placemark>
+<Placemark><name>Roque Nublo</name><description>Ruta · concurrido · ★★
+
+Solo al amanecer.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-15.6125,27.9706,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Lanzarote</name>
+<Placemark><name>Camino de los Gracioseros → Playa del Risco</name><description>Ruta/playa · joya local · ★★★
+
+Bajada en zigzag por el risco de Famara a una playa sin acceso en coche, frente a La Graciosa. Subida exigente.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.49647,29.20971,0</coordinates></Point></Placemark>
+<Placemark><name>Tenesar</name><description>Pueblo · joya local · ★★
+
+Caserío de pescadores medio abandonado entre lava, en el borde del parque de Timanfaya. Atardecer.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.717,29.08162,0</coordinates></Point></Placemark>
+<Placemark><name>Volcán del Cuervo y Montaña Colorada</name><description>Ruta · tranquilo · ★★★
+
+Rutas gratis y libres por el Parque Natural de Los Volcanes. Es el Timanfaya sin guagua turística.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.69389,28.99103,0</coordinates></Point></Placemark>
+<Placemark><name>Rutas guiadas de Timanfaya (Tremesana / Litoral)</name><description>Ruta · tranquilo · ★★★
+
+Gratis con reserva en la web de Parques Nacionales. Mucho mejor que la Ruta de los Volcanes en bus.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.70371,29.03353,0</coordinates></Point></Placemark>
+<Placemark><name>Volcán de la Corona y Ye</name><description>Ruta · tranquilo · ★★
+
+Subida al cráter del volcán que formó Jameos y Cueva de los Verdes.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.47908,29.19486,0</coordinates></Point></Placemark>
+<Placemark><name>Caleta de Famara</name><description>Pueblo/surf · joya local · ★★★
+
+Calles de arena, surferos y gente local. Pescado en El Risco.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.56632,29.11872,0</coordinates></Point></Placemark>
+<Placemark><name>Charco del Palo</name><description>Costa · joya local · ★★
+
+Piscinas en la roca. Es zona naturista.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.45175,29.08414,0</coordinates></Point></Placemark>
+<Placemark><name>Arrieta y Punta Mujeres</name><description>Pueblo/costa · tranquilo · ★★
+
+Charcos de baño de la gente local del norte. Casa Juanita en Arrieta para comer pescado.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.46183,29.13181,0</coordinates></Point></Placemark>
+<Placemark><name>Caletón Blanco y Playa de la Cantería (Órzola)</name><description>Playa · tranquilo · ★★
+
+Arena blanca y lava negra. La Cantería es salvaje y está bajo el risco.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.4424,29.21633,0</coordinates></Point></Placemark>
+<Placemark><name>Los Valles y Ermita de las Nieves</name><description>Paisaje · joya local · ★★
+
+Interior agrícola y mirador sobre Famara, la zona más alta de la isla.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.52814,29.10655,0</coordinates></Point></Placemark>
+<Placemark><name>Haría y Máguez</name><description>Pueblo · tranquilo · ★★★
+
+El "valle de las mil palmeras". Mercado de artesanía los sábados.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.5001,29.14589,0</coordinates></Point></Placemark>
+<Placemark><name>Femés</name><description>Pueblo · joya local · ★★
+
+Balcón sobre Playa Blanca y Rubicón. Cordero y queso.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.77894,28.91379,0</coordinates></Point></Placemark>
+<Placemark><name>Masdache y La Geria por pistas</name><description>Vino · tranquilo · ★★★
+
+Bodegas pequeñas (Vega de Yuco, Los Bermejos, Bodega Tisalaya) en lugar de las grandes.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.65637,28.99728,0</coordinates></Point></Placemark>
+<Placemark><name>Playa de Janubio y Salinas</name><description>Costa · tranquilo · ★★
+
+Arena negra brava. Sal artesana.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.82069,28.93806,0</coordinates></Point></Placemark>
+<Placemark><name>Playa del Paso / Caletas de Papagayo de punta a punta</name><description>Playa · tranquilo · ★★
+
+Andando por la costa desde Playa Mujeres hasta Puerto Muelas, las calas que no salen en Instagram.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.8252,28.86558,0</coordinates></Point></Placemark>
+<Placemark><name>Jameos del Agua / Mirador del Río / Fundación Manrique</name><description>Manrique · concurrido · ★★★
+
+Merecen la pena. Ve a primera hora o en la apertura nocturna de Jameos.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-13.43168,29.15749,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>La Graciosa</name>
+<Placemark><name>Montaña Bermeja y Playa de Las Conchas</name><description>Ruta/playa · tranquilo · ★★★
+
+Subida al volcán rojo sobre Las Conchas. Baño con mucho cuidado.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.5035,29.2815,0</coordinates></Point></Placemark>
+<Placemark><name>Playa Lambra</name><description>Playa · joya local · ★★
+
+En el extremo norte, la menos visitada.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.4897,29.27823,0</coordinates></Point></Placemark>
+<Placemark><name>Pedro Barba</name><description>Pueblo · joya local · ★★
+
+Caserío de casas blancas casi vacío.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.4799,29.2616,0</coordinates></Point></Placemark>
+<Placemark><name>Playa de La Cocina y Montaña Amarilla</name><description>Playa · tranquilo · ★★
+
+Al atardecer.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.522,29.222,0</coordinates></Point></Placemark>
+<Placemark><name>Playa Francesa</name><description>Playa · concurrido · ★★
+
+Ve temprano.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-13.52545,29.21998,0</coordinates></Point></Placemark>
+<Placemark><name>Caleta de Sebo de noche</name><description>Pueblo · joya local · ★★
+
+Calles de arena, cielo estrellado y pescado en el puerto.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.5023,29.23003,0</coordinates></Point></Placemark>
+<Placemark><name>Snorkel en la Reserva Marina del Archipiélago Chinijo</name><description>Mar · tranquilo · ★★
+
+La mayor reserva marina de Europa.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.5023,29.23003,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Fuerteventura</name>
+<Placemark><name>Cofete y Villa Winter</name><description>Playa · tranquilo · ★★★
+
+Pista de tierra a través de la península de Jandía. Mejor por la tarde. Peligrosa para el baño.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-14.38882,28.10231,0</coordinates></Point></Placemark>
+<Placemark><name>Barranco de las Peñitas y Ermita de la Peña</name><description>Ruta · joya local · ★★★
+
+Desde Vega de Río Palmas: presa colmatada, tarajales y una ermita escondida en la roca.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-14.08164,28.39458,0</coordinates></Point></Placemark>
+<Placemark><name>Ajuy y sus cuevas</name><description>Geología · tranquilo · ★★★
+
+Las rocas más antiguas de Canarias. Pescado en el pueblo.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-14.15563,28.39958,0</coordinates></Point></Placemark>
+<Placemark><name>Puertito de los Molinos</name><description>Pueblo · joya local · ★★
+
+Caserío de pescadores con una charca y ardillas morunas.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-14.061,28.547,0</coordinates></Point></Placemark>
+<Placemark><name>Majanicho</name><description>Pueblo/surf · joya local · ★★
+
+Casitas de pescadores entre el malpaís del norte. Pista de tierra desde Lajares.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.94,28.738,0</coordinates></Point></Placemark>
+<Placemark><name>Lajares</name><description>Pueblo · tranquilo · ★★
+
+Base surfera del norte. Artesanía de calado.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.93183,28.68283,0</coordinates></Point></Placemark>
+<Placemark><name>Playa de Esquinzo y Playa del Águila (El Cotillo)</name><description>Playa · tranquilo · ★★
+
+Calas con acantilado al sur del Cotillo.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-14.01,28.665,0</coordinates></Point></Placemark>
+<Placemark><name>Pozo Negro y Poblado de la Atalayita</name><description>Pueblo/cultura · joya local · ★★
+
+Poblado aborigen entre lava y un pueblo pesquero de un par de restaurantes.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.90223,28.31656,0</coordinates></Point></Placemark>
+<Placemark><name>Playa de Garcey y Playa del Viejo Rey</name><description>Playa · joya local · ★★
+
+Costa oeste salvaje, sin servicios.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-14.22268,28.21485,0</coordinates></Point></Placemark>
+<Placemark><name>Ecomuseo La Alcogida (Tefía)</name><description>Cultura · tranquilo · ★★
+
+Casas tradicionales majoreras restauradas.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.99113,28.52699,0</coordinates></Point></Placemark>
+<Placemark><name>Montaña de Tindaya</name><description>Cultura · joya local · ★★
+
+Podomorfos aborígenes. Subir requiere permiso del Cabildo.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-13.97763,28.59637,0</coordinates></Point></Placemark>
+<Placemark><name>Montaña de Cardón</name><description>Ruta · joya local · ★
+
+Lugar sagrado y vistas del sur.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-14.15818,28.25709,0</coordinates></Point></Placemark>
+<Placemark><name>Las Playitas y Gran Tarajal</name><description>Pueblo · tranquilo · ★
+
+Sur local, no turístico.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-13.98384,28.22905,0</coordinates></Point></Placemark>
+<Placemark><name>Isla de Lobos</name><description>Isla · concurrido · ★★★
+
+Coge el primer barco y sube a la Montaña de Lobos. Permiso obligatorio.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-13.8239,28.75093,0</coordinates></Point></Placemark>
+<Placemark><name>Dunas de Corralejo</name><description>Naturaleza · concurrido · ★★
+
+Ve al atardecer y entra por el lado sur.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-13.84497,28.69202,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>La Palma</name>
+<Placemark><name>Poris de Candelaria (Tijarafe)</name><description>Costa · joya local · ★★★
+
+Casitas de pescadores construidas dentro de una gran cueva marina. Bajada a pie empinada.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.97328,28.7033,0</coordinates></Point></Placemark>
+<Placemark><name>Ruta de los Dragos de Las Tricias (Garafía)</name><description>Ruta · joya local · ★★★
+
+Dragos centenarios y las cuevas de Buracas con grabados aborígenes.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.96578,28.78212,0</coordinates></Point></Placemark>
+<Placemark><name>Santo Domingo de Garafía y su puerto</name><description>Pueblo · joya local · ★★
+
+El noroeste olvidado: acantilados, cementerio sobre el mar y ganado.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.94467,28.83018,0</coordinates></Point></Placemark>
+<Placemark><name>Caldera de Taburiente desde Los Brecitos</name><description>Ruta · tranquilo · ★★★
+
+Bajada hasta la Playa de Taburiente, la Cascada de Colores y salida por el Barranco de las Angustias. Mejor dormir en la zona de acampada (permiso).</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.90064,28.71162,0</coordinates></Point></Placemark>
+<Placemark><name>Ruta de los Volcanes (Cumbre Vieja)</name><description>Ruta · tranquilo · ★★★
+
+Unos 18 km desde el Refugio del Pilar hasta Fuencaliente. Pocas personas y lava de todas las edades.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.83614,28.61377,0</coordinates></Point></Placemark>
+<Placemark><name>Marcos y Cordero → Los Tilos</name><description>Ruta · concurrido · ★★★
+
+Túneles con agua y laurisilva. Lleva frontal y chubasquero.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-17.80798,28.79065,0</coordinates></Point></Placemark>
+<Placemark><name>Volcán Tajogaite (2021)</name><description>Volcán · tranquilo · ★★★
+
+Visitas guiadas con gente local. Hablar con quienes lo vivieron es parte del viaje.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.86641,28.61325,0</coordinates></Point></Placemark>
+<Placemark><name>Roque de los Muchachos de noche</name><description>Astronomía · tranquilo · ★★★
+
+Lleva abrigo porque está a 2.400 m. Atardecer sobre el mar de nubes.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.8853,28.7543,0</coordinates></Point></Placemark>
+<Placemark><name>Playa de Nogales (Puntallana)</name><description>Playa · joya local · ★★
+
+Arena negra al pie del acantilado. No te bañes con mar fuerte.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.74052,28.75998,0</coordinates></Point></Placemark>
+<Placemark><name>Puerto Espíndola y Charco Azul</name><description>Costa · tranquilo · ★★
+
+Piscinas naturales del noreste.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.76332,28.80963,0</coordinates></Point></Placemark>
+<Placemark><name>La Fajana (Barlovento)</name><description>Piscina natural · joya local · ★★
+
+</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.78963,28.84243,0</coordinates></Point></Placemark>
+<Placemark><name>El Time y Mirador de El Time</name><description>Mirador · tranquilo · ★★
+
+Vista sobre el Valle de Aridane y la nueva costa de lava.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.938,28.66,0</coordinates></Point></Placemark>
+<Placemark><name>Puerto de Puntagorda y almendros en flor</name><description>Costa/paisaje · joya local · ★★
+
+La Fiesta del Almendro en Flor se celebra en febrero.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.97768,28.7785,0</coordinates></Point></Placemark>
+<Placemark><name>Pino de la Virgen y El Paso</name><description>Pueblo · tranquilo · ★
+
+Telares de seda artesanales en El Paso (Las Hilanderas).</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.85442,28.58386,0</coordinates></Point></Placemark>
+<Placemark><name>Santa Cruz de La Palma</name><description>Ciudad · tranquilo · ★★
+
+Calle Real y balcones. Muy auténtica.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.7658,28.68144,0</coordinates></Point></Placemark>
+<Placemark><name>Salinas de Fuencaliente</name><description>Costa · concurrido · ★
+
+</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-17.84105,28.45415,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>La Gomera</name>
+<Placemark><name>La Fortaleza de Chipude</name><description>Montaña/cultura · joya local · ★★★
+
+Meseta sagrada aborigen. Subida corta y vertiginosa con vistas a toda la isla.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.27625,28.09934,0</coordinates></Point></Placemark>
+<Placemark><name>El Cercado</name><description>Pueblo · joya local · ★★★
+
+Alfarería gomera hecha sin torno, como hace 2.000 años.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.28594,28.11878,0</coordinates></Point></Placemark>
+<Placemark><name>Las Hayas – Casa Efigenia</name><description>Gastro · joya local · ★★★
+
+Potaje y gofio en una casa de pueblo. Es una institución.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.29287,28.12887,0</coordinates></Point></Placemark>
+<Placemark><name>Garajonay por el Contadero → El Cedro</name><description>Ruta · tranquilo · ★★★
+
+Laurisilva y musgo hasta la ermita de Lourdes y el caserío de El Cedro.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.2209,28.12695,0</coordinates></Point></Placemark>
+<Placemark><name>Imada</name><description>Pueblo · joya local · ★★
+
+Caserío en lo alto de un barranco del sur, sin salida.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.2414,28.08575,0</coordinates></Point></Placemark>
+<Placemark><name>Taguluche y Arure</name><description>Pueblo · joya local · ★★
+
+El oeste más aislado. Mirador del Santo.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.31956,28.13441,0</coordinates></Point></Placemark>
+<Placemark><name>Playa de La Caleta (Hermigua)</name><description>Playa · tranquilo · ★★
+
+Cala de callaos con un chiringuito local.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.16668,28.17352,0</coordinates></Point></Placemark>
+<Placemark><name>Vallehermoso y Roque Cano</name><description>Pueblo · tranquilo · ★★
+
+Pueblo del norte. Ruta a Chorros de Epina.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.25634,28.18166,0</coordinates></Point></Placemark>
+<Placemark><name>Agulo y Mirador de Abrante</name><description>Pueblo · tranquilo · ★★
+
+El pueblo más bonito de la isla.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.19457,28.18818,0</coordinates></Point></Placemark>
+<Placemark><name>Ermita de Guadalupe (Puntallana)</name><description>Cultura · joya local · ★
+
+Ermita junto al mar. Cada 5 años salen de aquí las Bajadas de la Virgen.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.10395,28.12659,0</coordinates></Point></Placemark>
+<Placemark><name>Los Órganos en barco</name><description>Costa · concurrido · ★★
+
+Elige un barco pequeño desde Valle Gran Rey.</description><styleUrl>#concurrido</styleUrl><Point><coordinates>-17.2754,28.21631,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>El Hierro</name>
+<Placemark><name>El Sabinar y Ermita de los Reyes</name><description>Naturaleza · joya local · ★★★
+
+Sabinas retorcidas por el viento.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-18.125,27.749,0</coordinates></Point></Placemark>
+<Placemark><name>Camino de Jinama</name><description>Ruta · joya local · ★★★
+
+Antigua senda de la "mudada" estacional entre la meseta y El Golfo.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.98083,27.76286,0</coordinates></Point></Placemark>
+<Placemark><name>Camino de la Virgen</name><description>Ruta · joya local · ★★
+
+El trazado de la Bajada, que recorre toda la isla por la cumbre (≈28 km).</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-18.11,27.7235,0</coordinates></Point></Placemark>
+<Placemark><name>Mar de Las Calmas y Tacorón</name><description>Buceo · joya local · ★★★
+
+Reserva marina, el mejor buceo de Canarias. Baño en Cala de Tacorón.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-18.0136,27.6698,0</coordinates></Point></Placemark>
+<Placemark><name>Volcán de Tanganasoga y Hoya del Morcillo</name><description>Naturaleza · tranquilo · ★★
+
+Pinar y volcanes del sur.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.99493,27.71521,0</coordinates></Point></Placemark>
+<Placemark><name>Charco Azul, Charco Manso y La Maceta</name><description>Costa · tranquilo · ★★★
+
+Piscinas naturales.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-18.00848,27.78648,0</coordinates></Point></Placemark>
+<Placemark><name>Pozo de las Calcosas</name><description>Pueblo · joya local · ★★
+
+Casitas de piedra y paja junto al mar.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-17.94687,27.83994,0</coordinates></Point></Placemark>
+<Placemark><name>Arenas Blancas y Faro de Orchilla</name><description>Costa · joya local · ★★
+
+El fin del mundo antiguo, el meridiano cero.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-18.14753,27.70669,0</coordinates></Point></Placemark>
+<Placemark><name>Sabinosa y Pozo de la Salud</name><description>Pueblo · joya local · ★★
+
+Pueblo tradicional y balneario de aguas termales.</description><styleUrl>#joya-local</styleUrl><Point><coordinates>-18.0968,27.74759,0</coordinates></Point></Placemark>
+<Placemark><name>Roque de la Bonanza y Las Playas</name><description>Costa · tranquilo · ★★
+
+</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.94135,27.72931,0</coordinates></Point></Placemark>
+<Placemark><name>Árbol Garoé</name><description>Cultura · tranquilo · ★★
+
+</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.9419,27.79591,0</coordinates></Point></Placemark>
+<Placemark><name>Mirador de la Peña / de Isora / de Las Playas</name><description>Mirador · tranquilo · ★★
+
+</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.98083,27.80698,0</coordinates></Point></Placemark>
+<Placemark><name>La Restinga</name><description>Pueblo · tranquilo · ★★
+
+Puerto pesquero y buceo. Pescado al lado del barco.</description><styleUrl>#tranquilo</styleUrl><Point><coordinates>-17.99502,27.66443,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>

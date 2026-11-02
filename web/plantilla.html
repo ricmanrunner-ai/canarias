@@ -1,0 +1,443 @@
+<title>Canarias fuera de ruta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: banda de mar a todo el ancho con el archipiélago dibujado; debajo, barra de filtros fija y rejilla de fichas. */
+:root {
+  --bg: #f1f3ef;        /* ceniza */
+  --surface: #ffffff;
+  --ink: #15201e;       /* basalto */
+  --muted: #5a6662;
+  --line: #d4dad4;
+  --sea: #d6e5e9;
+  --sea-ink: #8fb1ba;
+  --land: #cfc6b3;      /* toba */
+  --land-line: #998f7b;
+  --land-on: #b9ad94;
+  --lava: #cf3d1b;      /* joya local */
+  --laurel: #2c7546;    /* tranquilo */
+  --crowd: #858b88;     /* concurrido */
+  --accent: #0d5868;    /* atlántico */
+  --accent-soft: #dcebee;
+  --star: #b7791f;
+  --display: "Bricolage Grotesque", "Avenir Next Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1413; --surface: #162020; --ink: #e6ece8; --muted: #9ba7a3; --line: #2a3634;
+    --sea: #10252a; --sea-ink: #2f5560; --land: #3b3a32; --land-line: #6a6553; --land-on: #514d40;
+    --lava: #ff6b40; --laurel: #5cbb7e; --crowd: #7f8784; --accent: #62c3d5; --accent-soft: #173238; --star: #e3a948;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1413; --surface: #162020; --ink: #e6ece8; --muted: #9ba7a3; --line: #2a3634;
+  --sea: #10252a; --sea-ink: #2f5560; --land: #3b3a32; --land-line: #6a6553; --land-on: #514d40;
+  --lava: #ff6b40; --laurel: #5cbb7e; --crowd: #7f8784; --accent: #62c3d5; --accent-soft: #173238; --star: #e3a948;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.5 var(--body); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+a { color: var(--accent); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Cabecera */
+header.top { padding-block: 28px 18px; }
+header.top .wrap { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 32px; }
+h1 { font: 800 clamp(2.1rem, 6vw, 3.6rem)/0.95 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
+h1 span { color: var(--lava); }
+.lede { margin: 8px 0 0; color: var(--muted); max-width: 52ch; }
+.tally { display: flex; gap: 20px; font-family: var(--mono); font-size: 0.8rem; color: var(--muted); flex-wrap: wrap; }
+.tally b { display: block; font: 700 1.6rem/1 var(--display); color: var(--ink); }
+
+/* Mapa */
+.map-band { background: var(--sea); border-block: 1px solid var(--line); position: relative; }
+.map-band .wrap { padding-block: 0; position: relative; }
+svg.map { display: block; width: 100%; height: auto; max-height: 62vh; aspect-ratio: 2.35 / 1; touch-action: manipulation; }
+svg.map .graticule { stroke: var(--sea-ink); stroke-width: 0.6; stroke-dasharray: 2 4; fill: none; vector-effect: non-scaling-stroke; opacity: 0.6; }
+svg.map .grat-label { fill: var(--sea-ink); font: 10px var(--mono); }
+svg.map .isle { fill: var(--land); stroke: var(--land-line); stroke-width: 1; vector-effect: non-scaling-stroke; cursor: pointer; transition: fill .2s; }
+svg.map .isle:hover, svg.map .isle.on { fill: var(--land-on); }
+svg.map .isle-label { font: 700 13px var(--display); fill: var(--ink); paint-order: stroke; stroke: var(--sea); stroke-width: 3px; pointer-events: none; letter-spacing: 0.02em; }
+svg.map .pin { stroke: var(--surface); vector-effect: non-scaling-stroke; stroke-width: 1.5; cursor: pointer; }
+svg.map .pin.joya-local { fill: var(--lava); }
+svg.map .pin.tranquilo { fill: var(--laurel); }
+svg.map .pin.concurrido { fill: var(--crowd); }
+svg.map .pin.dim { opacity: 0.12; pointer-events: none; }
+svg.map .pin.sel { stroke: var(--ink); stroke-width: 3; }
+.map-legend { position: absolute; left: max(16px, env(safe-area-inset-left, 0px)); bottom: 10px; display: flex; gap: 12px; font-size: 0.8rem; color: var(--ink); background: color-mix(in srgb, var(--surface) 82%, transparent); padding: 4px 10px; border-radius: 6px; flex-wrap: wrap; }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: -1px; }
+.dot.joya-local { background: var(--lava); } .dot.tranquilo { background: var(--laurel); } .dot.concurrido { background: var(--crowd); }
+.map-card { position: absolute; right: max(16px, env(safe-area-inset-right, 0px)); top: 12px; width: min(320px, calc(100% - 32px)); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; box-shadow: 0 6px 24px rgb(0 0 0 / .12); }
+.map-card h3 { margin: 0 28px 4px 0; font: 700 1.05rem/1.2 var(--display); }
+.map-card p { margin: 6px 0 0; font-size: 0.9rem; color: var(--muted); }
+.map-card .x { position: absolute; top: 6px; right: 6px; border: 0; background: none; font-size: 1.2rem; line-height: 1; cursor: pointer; color: var(--muted); padding: 4px 8px; }
+.zoom-out { position: absolute; left: max(16px, env(safe-area-inset-left, 0px)); top: 12px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 12px; font-size: 0.85rem; cursor: pointer; }
+
+/* Filtros */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.filters { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
+.filters .wrap { display: flex; flex-direction: column; gap: 8px; padding-block: 10px; }
+.row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; align-items: center; }
+.row::-webkit-scrollbar { display: none; }
+.chip { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 12px; font-size: 0.9rem; cursor: pointer; white-space: nowrap; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip .n { font-family: var(--mono); font-size: 0.75rem; opacity: 0.65; margin-left: 4px; }
+.row .sep { width: 1px; height: 22px; background: var(--line); flex: none; margin: 0 4px; }
+.search { flex: 1 1 160px; min-width: 140px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 14px; font-size: 0.9rem; }
+
+/* Panel de isla */
+.island { padding-block: 24px 8px; }
+.island-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; }
+.island h2 { font: 800 clamp(1.7rem, 4vw, 2.4rem)/1 var(--display); margin: 0; letter-spacing: -0.01em; }
+.badge { font: 600 0.75rem var(--mono); text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 8px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px 28px; margin-top: 16px; }
+.fact { min-width: 0; }
+.fact dt { font: 600 0.72rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.fact dd { margin: 2px 0 0; }
+.flights { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+.fl { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; font-size: 0.85rem; background: var(--surface); }
+.fl code { font: 600 0.8rem var(--mono); }
+.st { font-size: 0.78rem; font-weight: 600; }
+.st.directo { color: var(--laurel); } .st.por-confirmar { color: var(--star); } .st.escala, .st.ferry { color: var(--muted); }
+.matrix-wrap { overflow-x: auto; margin-top: 12px; }
+table.matrix { border-collapse: collapse; min-width: 560px; width: 100%; font-size: 0.92rem; }
+table.matrix th, table.matrix td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); }
+table.matrix th { font: 600 0.72rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+table.matrix td button { background: none; border: 0; padding: 0; font: 700 1rem var(--display); cursor: pointer; color: var(--ink); text-align: left; }
+table.matrix td button:hover { color: var(--accent); }
+
+/* Fichas */
+.list-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-block: 20px 10px; flex-wrap: wrap; }
+.list-head h3 { margin: 0; font: 700 1.1rem var(--display); }
+.list-head span { color: var(--muted); font-size: 0.9rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 14px; padding-bottom: 40px; }
+.card { min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; scroll-margin-top: 130px; transition: border-color .2s, box-shadow .2s; }
+.card.sel { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+.card.done { opacity: 0.62; }
+.card-top { display: flex; justify-content: space-between; gap: 10px; align-items: start; }
+.card h4 { margin: 0; font: 700 1.08rem/1.25 var(--display); text-wrap: balance; cursor: pointer; }
+.stars { color: var(--star); font-size: 0.85rem; letter-spacing: 1px; flex: none; }
+.meta { display: flex; gap: 6px 10px; flex-wrap: wrap; font-size: 0.82rem; color: var(--muted); align-items: center; }
+.amb { font-weight: 600; }
+.amb.joya-local { color: var(--lava); } .amb.tranquilo { color: var(--laurel); } .amb.concurrido { color: var(--crowd); }
+.card p { margin: 0; font-size: 0.95rem; }
+.card-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: auto; padding-top: 6px; flex-wrap: wrap; }
+.coord { font: 0.75rem var(--mono); color: var(--muted); }
+.go { font-weight: 600; font-size: 0.9rem; text-decoration: none; }
+.go:hover { text-decoration: underline; }
+.seen { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; cursor: pointer; color: var(--muted); }
+.seen input { accent-color: var(--laurel); width: 16px; height: 16px; }
+.empty { padding: 30px 0 60px; color: var(--muted); }
+footer { border-top: 1px solid var(--line); padding-block: 18px 30px; color: var(--muted); font-size: 0.82rem; }
+@media (max-width: 640px) {
+  svg.map { aspect-ratio: 1.6 / 1; }
+  .map-card { position: static; width: auto; margin: 0 0 12px; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div>
+      <h1>Canarias <span>fuera de ruta</span></h1>
+      <p class="lede">Rincones locales, charcos, caseríos y rutas en las ocho islas, con cómo llegar desde Madrid, Santander y Bilbao.</p>
+    </div>
+    <div class="tally" id="tally"></div>
+  </div>
+</header>
+
+<section class="map-band" aria-label="Mapa del archipiélago">
+  <div class="wrap">
+    <svg class="map" id="map" role="img" aria-label="Mapa de las Islas Canarias con los sitios" preserveAspectRatio="xMidYMid meet"></svg>
+    <button class="zoom-out" id="zoomOut" hidden>← Todo el archipiélago</button>
+    <div class="map-legend"><span><i class="dot joya-local"></i>Joya local</span><span><i class="dot tranquilo"></i>Tranquilo</span><span><i class="dot concurrido"></i>Concurrido</span></div>
+    <div class="map-card" id="mapCard" hidden></div>
+  </div>
+</section>
+
+<nav class="filters" aria-label="Filtros">
+  <div class="wrap">
+    <div class="row" id="islandChips"></div>
+    <div class="row" id="otherChips"></div>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section class="island" id="island"></section>
+  <div class="list-head"><h3 id="listTitle">Sitios</h3><span id="listCount"></span></div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>Ningún sitio con estos filtros. Prueba a quitar alguno.</p>
+</main>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<script>
+const D = /*__DATOS__*/null;
+const ORDEN = Object.keys(D.islas);
+const AMB = { "joya local": "joya-local", "tranquilo": "tranquilo", "concurrido": "concurrido" };
+const AMB_RANK = { "joya local": 0, "tranquilo": 1, "concurrido": 2 };
+const ORIG = { MAD: "Madrid", SDR: "Santander", BIO: "Bilbao" };
+const slug = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const ISLA_SLUG = Object.fromEntries(ORDEN.map(i => [slug(i), i]));
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+D.sitios.forEach((s, i) => { s.id = i; s.key = slug(s.isla + "-" + s.sitio); });
+
+/* Visitados: repo + marcas locales de este navegador */
+const LS = "canarias-visitados";
+let local = {};
+try { local = JSON.parse(localStorage.getItem(LS) || "{}"); } catch (e) {}
+const visto = s => s.visitado === "si" || !!local[s.key];
+function setVisto(s, v) { local[s.key] = v; if (!v) delete local[s.key]; try { localStorage.setItem(LS, JSON.stringify(local)); } catch (e) {} }
+
+/* Estado de filtros */
+const st = { isla: null, amb: new Set(["joya local", "tranquilo", "concurrido"]), prio: 1, ocultar: false, q: "", sel: null };
+
+/* ---------- Proyección y mapa ---------- */
+const K = 100, COS = Math.cos(28.3 * Math.PI / 180);
+const P = (lon, lat) => [(lon + 18.3) * K * COS, (29.45 - lat) * K];
+const svg = document.getElementById("map");
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a = {}) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+
+const bounds = {};
+const gIsles = el("g"), gGrat = el("g"), gLabels = el("g"), gPins = el("g");
+D.contornos.features.forEach(f => {
+  const isla = f.properties.isla;
+  let d = "";
+  f.geometry.coordinates.forEach(poly => poly.forEach(ring => {
+    d += ring.map((c, j) => (j ? "L" : "M") + P(c[0], c[1]).map(v => v.toFixed(2)).join(",")).join("") + "Z";
+    ring.forEach(c => {
+      const [x, y] = P(c[0], c[1]);
+      const b = bounds[isla] ||= [x, y, x, y];
+      b[0] = Math.min(b[0], x); b[1] = Math.min(b[1], y); b[2] = Math.max(b[2], x); b[3] = Math.max(b[3], y);
+    });
+  }));
+  const p = el("path", { d, class: "isle", "data-isla": isla });
+  p.addEventListener("click", () => goIsla(isla));
+  gIsles.appendChild(p);
+});
+const ALL = Object.values(bounds).reduce((a, b) => [Math.min(a[0], b[0]), Math.min(a[1], b[1]), Math.max(a[2], b[2]), Math.max(a[3], b[3])]);
+const FULL = [ALL[0] - 40, ALL[1] - 8, ALL[2] - ALL[0] + 80, ALL[3] - ALL[1] + 26];
+
+// Retícula cada medio grado: un detalle de carta náutica
+for (let lat = 27.5; lat <= 29.5; lat += 0.5) {
+  const [x0, y] = P(-18.6, lat), [x1] = P(-13.0, lat);
+  gGrat.appendChild(el("line", { x1: x0, y1: y, x2: x1, y2: y, class: "graticule" }));
+  const t = el("text", { x: FULL[0] + 3, y: y - 3, class: "grat-label" }); t.textContent = lat.toFixed(1) + "°N"; gGrat.appendChild(t);
+}
+for (let lon = -18; lon <= -13.5; lon += 0.5) {
+  const [x, y0] = P(lon, 29.6), [, y1] = P(lon, 27.4);
+  gGrat.appendChild(el("line", { x1: x, y1: y0, x2: x, y2: y1, class: "graticule" }));
+}
+
+// Posición de cada nombre respecto a su isla
+const LABEL_POS = { "La Graciosa": "right", "Lanzarote": "right", "Fuerteventura": "right", "La Palma": "left" };
+ORDEN.forEach(i => {
+  const b = bounds[i]; if (!b) return;
+  let x = (b[0] + b[2]) / 2, y = b[3] + 11, anchor = "middle";
+  if (LABEL_POS[i] === "right") { x = b[2] + 5; y = (b[1] + b[3]) / 2 + 4; anchor = "start"; }
+  if (LABEL_POS[i] === "left") { x = b[0] - 5; y = (b[1] + b[3]) / 2 + 4; anchor = "end"; }
+  if (i === "La Graciosa") y = b[1] + 4;
+  if (i === "Lanzarote") y = b[1] + (b[3] - b[1]) * 0.45;
+  const t = el("text", { x, y, "text-anchor": anchor, class: "isle-label" }); t.textContent = i; gLabels.appendChild(t);
+});
+
+const pins = D.sitios.map(s => {
+  const [x, y] = P(s.lon, s.lat);
+  const c = el("circle", { cx: x, cy: y, r: 3, class: "pin " + AMB[s.ambiente] });
+  const tt = el("title"); tt.textContent = s.sitio; c.appendChild(tt);
+  c.addEventListener("click", e => { e.stopPropagation(); select(s.id, true); });
+  gPins.appendChild(c);
+  return c;
+});
+// Pines de prioridad alta encima
+D.sitios.slice().sort((a, b) => a.prioridad - b.prioridad).forEach(s => gPins.appendChild(pins[s.id]));
+svg.append(gGrat, gIsles, gLabels, gPins);
+
+let vb = FULL.slice(), anim = 0;
+function applyVB(v) {
+  svg.setAttribute("viewBox", v.map(n => n.toFixed(2)).join(" "));
+  // Unidades de usuario por píxel en pantalla (preserveAspectRatio "meet")
+  const k = Math.max(v[2] / (svg.clientWidth || 1000), v[3] / (svg.clientHeight || 425));
+  const r = (innerWidth < 640 ? 6 : 5.5) * k;
+  pins.forEach(p => p.setAttribute("r", (p.classList.contains("sel") ? r * 1.6 : r).toFixed(3)));
+  gLabels.querySelectorAll("text").forEach(t => { t.style.fontSize = 13 * k + "px"; t.style.strokeWidth = 3 * k + "px"; });
+  gGrat.querySelectorAll(".grat-label").forEach(t => { t.style.fontSize = 10 * k + "px"; t.setAttribute("x", v[0] + 6 * k); });
+}
+addEventListener("resize", () => applyVB(vb));
+function zoomTo(target) {
+  cancelAnimationFrame(anim);
+  const from = vb.slice(), t0 = performance.now(), dur = reduce ? 0 : 550;
+  const step = now => {
+    const k = dur ? Math.min(1, (now - t0) / dur) : 1, e = 1 - Math.pow(1 - k, 3);
+    vb = from.map((f, i) => f + (target[i] - f) * e); applyVB(vb);
+    if (k < 1) anim = requestAnimationFrame(step);
+  };
+  anim = requestAnimationFrame(step);
+}
+function islaVB(i) {
+  const b = bounds[i], w = b[2] - b[0], h = b[3] - b[1];
+  const ar = svg.clientWidth / Math.max(svg.clientHeight, 1) || 2.35;
+  let W = w * 1.25 + 8, H = h * 1.25 + 8;
+  if (W / H < ar) W = H * ar; else H = W / ar;
+  return [(b[0] + b[2]) / 2 - W / 2, (b[1] + b[3]) / 2 - H / 2, W, H];
+}
+applyVB(vb);
+
+/* ---------- Filtros ---------- */
+const count = i => D.sitios.filter(s => !i || s.isla === i).length;
+function chip(label, pressed, onClick, n) {
+  const b = document.createElement("button");
+  b.className = "chip"; b.type = "button"; b.setAttribute("aria-pressed", pressed);
+  b.innerHTML = esc(label) + (n != null ? `<span class="n">${n}</span>` : "");
+  b.addEventListener("click", onClick); return b;
+}
+function renderChips() {
+  const ic = document.getElementById("islandChips"); ic.replaceChildren();
+  ic.appendChild(chip("Todas", !st.isla, () => goIsla(null), D.sitios.length));
+  ORDEN.forEach(i => ic.appendChild(chip((D.islas[i].visitada ? "✓ " : "") + i, st.isla === i, () => goIsla(i), count(i))));
+  const oc = document.getElementById("otherChips"); oc.replaceChildren();
+  [["joya local", "Joya local"], ["tranquilo", "Tranquilo"], ["concurrido", "Concurrido"]].forEach(([k, l]) => {
+    const b = chip(l, st.amb.has(k), () => { st.amb.has(k) ? st.amb.delete(k) : st.amb.add(k); if (!st.amb.size) st.amb.add(k); update(); });
+    b.insertAdjacentHTML("afterbegin", `<i class="dot ${AMB[k]}"></i>`); oc.appendChild(b);
+  });
+  oc.appendChild(Object.assign(document.createElement("span"), { className: "sep" }));
+  [[1, "Todas"], [2, "★★+"], [3, "★★★"]].forEach(([p, l]) => oc.appendChild(chip(l, st.prio === p, () => { st.prio = p; update(); })));
+  oc.appendChild(Object.assign(document.createElement("span"), { className: "sep" }));
+  oc.appendChild(chip("Ocultar visitados", st.ocultar, () => { st.ocultar = !st.ocultar; update(); }));
+  let q = document.getElementById("q");
+  if (!q) {
+    q = Object.assign(document.createElement("input"), { id: "q", type: "search", className: "search", placeholder: "Buscar: charco, cueva, guachinche…" });
+    q.setAttribute("aria-label", "Buscar sitios");
+    q.addEventListener("input", () => { st.q = q.value.trim().toLowerCase(); update(true); });
+  }
+  q.value = st.q; oc.appendChild(q);
+}
+const pasa = s => (!st.isla || s.isla === st.isla) && st.amb.has(s.ambiente) && s.prioridad >= st.prio && !(st.ocultar && visto(s))
+  && (!st.q || (s.sitio + " " + s.notas + " " + s.tipo + " " + s.isla).toLowerCase().includes(st.q));
+
+/* ---------- Panel de isla / vuelos ---------- */
+const stLabel = { "directo": "directo", "por confirmar": "por confirmar", "escala": "con escala", "ferry": "vuelo + ferry" };
+function flightChips(i) {
+  return Object.keys(ORIG).map(o => {
+    const v = D.vuelos[i][o];
+    return `<span class="fl" title="${esc(v.detalle.join(" · ") || "Sin vuelo directo: escala en Madrid, Tenerife Norte o Gran Canaria")}"><code>${o}</code><span class="st ${slug(v.estado)}">${stLabel[v.estado]}</span></span>`;
+  }).join("");
+}
+function renderIsland() {
+  const box = document.getElementById("island");
+  if (!st.isla) {
+    const rows = ORDEN.map(i => `<tr><td><button type="button" data-isla="${esc(i)}">${esc(i)}</button>${D.islas[i].visitada ? ' <span class="badge">visitada</span>' : ""}</td>`
+      + Object.keys(ORIG).map(o => { const v = D.vuelos[i][o]; return `<td><span class="st ${slug(v.estado)}" title="${esc(v.detalle.join(" · "))}">${stLabel[v.estado]}</span></td>`; }).join("")
+      + `<td class="coord">${count(i)}</td></tr>`).join("");
+    box.innerHTML = `<div class="island-head"><h2>Ocho islas</h2><span class="badge">vuelos revisados ${esc(D.revision)}</span></div>
+      <p class="lede">Elige una isla en el mapa o en los filtros. La tabla resume si hay vuelo directo desde cada aeropuerto; los detalles están en <code>vuelos.md</code>.</p>
+      <div class="matrix-wrap"><table class="matrix"><thead><tr><th>Isla</th><th>Madrid</th><th>Santander</th><th>Bilbao</th><th>Sitios</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    box.querySelectorAll("button[data-isla]").forEach(b => b.addEventListener("click", () => goIsla(b.dataset.isla)));
+    return;
+  }
+  const f = D.islas[st.isla];
+  const fact = (t, v) => v ? `<div class="fact"><dt>${t}</dt><dd>${esc(v)}</dd></div>` : "";
+  box.innerHTML = `<div class="island-head"><h2>${esc(st.isla)}</h2>${f.visitada ? '<span class="badge">visitada</span>' : '<span class="badge">pendiente</span>'}</div>
+    <dl class="facts">
+      <div class="fact"><dt>Vuelos</dt><dd><div class="flights">${flightChips(st.isla)}</div></dd></div>
+      ${fact("Cómo llegar", f.llegar)}${fact("Carácter", f.caracter)}${fact("Dónde dormir", f.dormir)}${fact("Truco", f.truco)}
+      ${fact("Comer", f.comer)}${fact("Fiestas", f.fiestas)}${fact("Evitar", f.evitar)}
+    </dl>`;
+}
+
+/* ---------- Fichas ---------- */
+const gmaps = s => `https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lon}`;
+function cardHTML(s) {
+  return `<article class="card${visto(s) ? " done" : ""}" id="c-${s.id}" data-id="${s.id}">
+    <div class="card-top"><h4>${esc(s.sitio)}</h4><span class="stars" aria-label="Prioridad ${s.prioridad} de 3">${"★".repeat(s.prioridad)}</span></div>
+    <div class="meta"><span class="amb ${AMB[s.ambiente]}">${esc(s.ambiente)}</span><span>${esc(s.tipo)}</span>${st.isla ? "" : `<span>${esc(s.isla)}</span>`}</div>
+    <p>${esc(s.notas)}</p>
+    <div class="card-foot">
+      <a class="go" href="${gmaps(s)}" target="_blank" rel="noopener">Abrir en Google Maps ↗</a>
+      <label class="seen"><input type="checkbox" id="v-${s.key}" ${visto(s) ? "checked" : ""} ${s.visitado === "si" ? "disabled" : ""}> Visitado</label>
+    </div>
+    <span class="coord">${s.lat.toFixed(4)}° N, ${Math.abs(s.lon).toFixed(4)}° O</span>
+  </article>`;
+}
+function renderList() {
+  const items = D.sitios.filter(pasa).sort((a, b) =>
+    ORDEN.indexOf(a.isla) - ORDEN.indexOf(b.isla) || b.prioridad - a.prioridad || AMB_RANK[a.ambiente] - AMB_RANK[b.ambiente]);
+  const grid = document.getElementById("grid");
+  grid.innerHTML = items.map(cardHTML).join("");
+  document.getElementById("empty").hidden = items.length > 0;
+  document.getElementById("listTitle").textContent = st.isla ? `Sitios en ${st.isla}` : "Todos los sitios";
+  const joyas = items.filter(s => s.ambiente === "joya local").length;
+  document.getElementById("listCount").textContent = `${items.length} sitios · ${joyas} joyas locales`;
+  grid.querySelectorAll(".card").forEach(c => {
+    const s = D.sitios[+c.dataset.id];
+    c.querySelector("h4").addEventListener("click", () => select(s.id, false));
+    c.addEventListener("mouseenter", () => pins[s.id].classList.add("sel"));
+    c.addEventListener("mouseleave", () => { if (st.sel !== s.id) pins[s.id].classList.remove("sel"); });
+    const cb = c.querySelector("input");
+    cb.addEventListener("change", () => { setVisto(s, cb.checked); c.classList.toggle("done", cb.checked); renderTally(); if (st.ocultar) update(true); });
+  });
+  const vis = new Set(items.map(s => s.id));
+  pins.forEach((p, i) => p.classList.toggle("dim", !vis.has(i)));
+  if (st.sel != null) document.getElementById("c-" + st.sel)?.classList.add("sel");
+}
+function renderTally() {
+  const total = D.sitios.length, joyas = D.sitios.filter(s => s.ambiente === "joya local").length;
+  const vistos = D.sitios.filter(visto).length, islasV = ORDEN.filter(i => D.islas[i].visitada).length;
+  document.getElementById("tally").innerHTML = `<div><b>${total}</b>sitios</div><div><b>${joyas}</b>joyas locales</div><div><b>${islasV}/8</b>islas</div><div><b>${vistos}</b>visitados</div>`;
+}
+
+/* ---------- Selección ---------- */
+function select(id, fromMap) {
+  const s = D.sitios[id];
+  st.sel = id;
+  pins.forEach(p => p.classList.remove("sel")); pins[id].classList.add("sel");
+  applyVB(vb);
+  document.querySelectorAll(".card.sel").forEach(c => c.classList.remove("sel"));
+  const card = document.getElementById("c-" + id);
+  card?.classList.add("sel");
+  const mc = document.getElementById("mapCard");
+  mc.hidden = false;
+  mc.innerHTML = `<button class="x" type="button" aria-label="Cerrar">×</button><h3>${esc(s.sitio)}</h3>
+    <div class="meta"><span class="amb ${AMB[s.ambiente]}">${esc(s.ambiente)}</span><span>${esc(s.tipo)}</span><span class="stars">${"★".repeat(s.prioridad)}</span></div>
+    <p>${esc(s.notas)}</p><p><a class="go" href="${gmaps(s)}" target="_blank" rel="noopener">Abrir en Google Maps ↗</a>${card ? ' · <a href="#" id="toCard">Ver ficha</a>' : ""}</p>`;
+  mc.querySelector(".x").addEventListener("click", () => { mc.hidden = true; pins[id].classList.remove("sel"); st.sel = null; applyVB(vb); document.querySelectorAll(".card.sel").forEach(c => c.classList.remove("sel")); });
+  mc.querySelector("#toCard")?.addEventListener("click", e => { e.preventDefault(); card.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); });
+  if (!fromMap) {
+    if (st.isla !== s.isla) goIsla(s.isla, true);
+    svg.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+  }
+}
+
+/* ---------- Navegación por isla (hash) ---------- */
+function goIsla(i, keepSel) {
+  const h = i ? "#" + slug(i) : "";
+  if (location.hash !== h) history.replaceState(null, "", h || location.pathname + location.search);
+  setIsla(i, keepSel);
+}
+function setIsla(i, keepSel) {
+  st.isla = i;
+  if (!keepSel) { st.sel = null; document.getElementById("mapCard").hidden = true; pins.forEach(p => p.classList.remove("sel")); }
+  gIsles.querySelectorAll(".isle").forEach(p => p.classList.toggle("on", p.dataset.isla === i));
+  document.getElementById("zoomOut").hidden = !i;
+  zoomTo(i ? islaVB(i) : FULL);
+  update();
+}
+function update(listOnly) { if (!listOnly) { renderChips(); renderIsland(); } renderList(); }
+document.getElementById("zoomOut").addEventListener("click", () => goIsla(null));
+addEventListener("hashchange", () => setIsla(ISLA_SLUG[location.hash.slice(1)] || null));
+
+renderTally();
+setIsla(ISLA_SLUG[location.hash.slice(1)] || null);
+document.getElementById("foot").innerHTML = `Generado desde el repositorio <code>canarias</code> con <code>scripts/generar_mapa.py</code>. Vuelos revisados en ${esc(D.revision)}: confirma siempre antes de reservar. Contornos y coordenadas © colaboradores de OpenStreetMap. Las casillas de visitado se guardan solo en este navegador; para dejarlo fijo, márcalo en la ficha de la isla del repositorio.`;
+</script>

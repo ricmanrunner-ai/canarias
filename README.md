@@ -19,6 +19,21 @@ Repositorio para tener analizados los sitios de las Islas Canarias, isla por isl
 
 Detalle completo en **[vuelos.md](vuelos.md)** y en bruto en [`data/vuelos.csv`](data/vuelos.csv).
 
+## 🗺️ Mapa y web
+
+- **Web:** https://claude.ai/artifact/3ZDAnfxZBMq21Vd1M9GReF (privada; se comparte desde su menú *Share*). Incluye el mapa del archipiélago con los 122 sitios, filtros por isla, ambiente y prioridad, buscador, vuelos desde MAD/SDR/BIO y un enlace a Google Maps en cada sitio.
+- **Mapa para el móvil:** [`mapa/canarias.kml`](mapa/canarias.kml). Impórtalo en [Google My Maps](https://www.google.com/maps/d/) (*Crear mapa → Importar*) y aparecerá en la app de Google Maps, en *Guardados → Mapas*. Tiene una carpeta por isla y los pines coloreados por ambiente. También funciona con Organic Maps y Maps.me, que permiten usarlo sin conexión.
+
+Para regenerar ambos después de editar una ficha:
+
+```bash
+python3 scripts/generar_sitios.py    # fichas → data/sitios.csv
+python3 scripts/geocodificar.py      # solo busca coordenadas de sitios nuevos
+python3 scripts/generar_mapa.py      # → mapa/canarias.kml y web/index.html
+```
+
+Si un pin cae mal, corrige `lat`/`lon` en `data/coordenadas.csv`, pon `manual` en `fuente` y vuelve a generar.
+
 ## Estilo de viaje
 
 Este repositorio no es una guía para turistas de pulsera. Las reglas que sigue:
@@ -37,7 +52,11 @@ mis-viajes.md      ← diario de viajes y lista de deseos
 islas/*.md         ← una ficha por isla: sitios con ambiente y prioridad, dónde dormir, comer, fiestas, qué evitar
 data/vuelos.csv    ← datos de rutas (para filtrar / actualizar)
 data/sitios.csv    ← todos los sitios en una tabla (se genera con scripts/generar_sitios.py)
-scripts/           ← utilidades
+data/coordenadas.csv ← lat/lon de cada sitio (OpenStreetMap + correcciones manuales)
+data/islas.geojson ← contornos de las islas (OpenStreetMap, simplificados)
+mapa/canarias.kml  ← mapa para Google My Maps / Organic Maps
+web/               ← plantilla.html (fuente) e index.html (generada)
+scripts/           ← generar_sitios.py, geocodificar.py, generar_mapa.py
 ```
 
 ## Cómo usarlo
