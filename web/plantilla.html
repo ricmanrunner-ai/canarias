@@ -2,7 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
 <style>
 /* Layout: banda de mar a todo el ancho con el archipiélago dibujado; debajo, barra de filtros fija y rejilla de fichas. */
 :root {
@@ -22,9 +22,9 @@
   --accent: #0d5868;    /* atlántico */
   --accent-soft: #dcebee;
   --star: #b7791f;
-  --display: "Bricolage Grotesque", "Avenir Next Condensed", "Arial Narrow", system-ui, sans-serif;
-  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
-  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --display: "EB Garamond", Garamond, "Times New Roman", serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "Source Serif 4", Georgia, serif;  /* etiquetas: versalitas espaciadas, cifras tabulares */
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -51,21 +51,21 @@ button, input, select { font: inherit; color: inherit; }
 /* Cabecera */
 header.top { padding-block: 28px 18px; }
 header.top .wrap { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 32px; }
-h1 { font: 800 clamp(2.1rem, 6vw, 3.6rem)/0.95 var(--display); letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
-h1 span { color: var(--lava); }
+h1 { font: 600 clamp(2.4rem, 6.5vw, 4rem)/0.95 var(--display); letter-spacing: -0.005em; margin: 0; text-wrap: balance; }
+h1 span { color: var(--lava); font-style: italic; font-weight: 500; }
 .lede { margin: 8px 0 0; color: var(--muted); max-width: 52ch; }
-.tally { display: flex; gap: 20px; font-family: var(--mono); font-size: 0.8rem; color: var(--muted); flex-wrap: wrap; }
-.tally b { display: block; font: 700 1.6rem/1 var(--display); color: var(--ink); }
+.tally { display: flex; gap: 20px; font-family: var(--mono); font-size: 0.85rem; font-variant: small-caps; letter-spacing: 0.04em; color: var(--muted); flex-wrap: wrap; }
+.tally b { display: block; font: 600 1.9rem/1 var(--display); font-variant-numeric: lining-nums tabular-nums; color: var(--ink); }
 
 /* Mapa */
 .map-band { background: var(--sea); border-block: 1px solid var(--line); position: relative; }
 .map-band .wrap { padding-block: 0; position: relative; }
 svg.map { display: block; width: 100%; height: auto; max-height: 62vh; aspect-ratio: 2.35 / 1; touch-action: manipulation; }
 svg.map .graticule { stroke: var(--sea-ink); stroke-width: 0.6; stroke-dasharray: 2 4; fill: none; vector-effect: non-scaling-stroke; opacity: 0.6; }
-svg.map .grat-label { fill: var(--sea-ink); font: 10px var(--mono); }
+svg.map .grat-label { fill: var(--sea-ink); font: italic 10px var(--display); }
 svg.map .isle { fill: var(--land); stroke: var(--land-line); stroke-width: 1; vector-effect: non-scaling-stroke; cursor: pointer; transition: fill .2s; }
 svg.map .isle:hover, svg.map .isle.on { fill: var(--land-on); }
-svg.map .isle-label { font: 700 13px var(--display); fill: var(--ink); paint-order: stroke; stroke: var(--sea); stroke-width: 3px; pointer-events: none; letter-spacing: 0.02em; }
+svg.map .isle-label { font: italic 600 14px var(--display); fill: var(--ink); paint-order: stroke; stroke: var(--sea); stroke-width: 3px; pointer-events: none; letter-spacing: 0.02em; }
 svg.map .pin { stroke: var(--surface); vector-effect: non-scaling-stroke; stroke-width: 1.5; cursor: pointer; }
 svg.map .pin.joya-local { fill: var(--lava); }
 svg.map .pin.tranquilo { fill: var(--laurel); }
@@ -76,7 +76,7 @@ svg.map .pin.sel { stroke: var(--ink); stroke-width: 3; }
 .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: -1px; }
 .dot.joya-local { background: var(--lava); } .dot.tranquilo { background: var(--laurel); } .dot.concurrido { background: var(--crowd); }
 .map-card { position: absolute; right: max(16px, env(safe-area-inset-right, 0px)); top: 12px; width: min(320px, calc(100% - 32px)); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; box-shadow: 0 6px 24px rgb(0 0 0 / .12); }
-.map-card h3 { margin: 0 28px 4px 0; font: 700 1.05rem/1.2 var(--display); }
+.map-card h3 { margin: 0 28px 4px 0; font: 600 1.25rem/1.15 var(--display); }
 .map-card p { margin: 6px 0 0; font-size: 0.9rem; color: var(--muted); }
 .map-card .x { position: absolute; top: 6px; right: 6px; border: 0; background: none; font-size: 1.2rem; line-height: 1; cursor: pointer; color: var(--muted); padding: 4px 8px; }
 .zoom-out { position: absolute; left: max(16px, env(safe-area-inset-left, 0px)); top: 12px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 12px; font-size: 0.85rem; cursor: pointer; }
@@ -96,8 +96,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 /* Panel de isla */
 .island { padding-block: 24px 8px; }
 .island-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; }
-.island h2 { font: 800 clamp(1.7rem, 4vw, 2.4rem)/1 var(--display); margin: 0; letter-spacing: -0.01em; }
-.badge { font: 600 0.75rem var(--mono); text-transform: uppercase; letter-spacing: 0.06em; padding: 2px 8px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); }
+.island h2 { font: 600 clamp(2rem, 4.5vw, 2.8rem)/1 var(--display); margin: 0; }
+.badge { font: 600 0.78rem var(--mono); text-transform: uppercase; letter-spacing: 0.1em; padding: 2px 8px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); }
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px 28px; margin-top: 16px; }
 .fact { min-width: 0; }
 .fact dt { font: 600 0.72rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
@@ -111,26 +111,26 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 table.matrix { border-collapse: collapse; min-width: 560px; width: 100%; font-size: 0.92rem; }
 table.matrix th, table.matrix td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); }
 table.matrix th { font: 600 0.72rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-table.matrix td button { background: none; border: 0; padding: 0; font: 700 1rem var(--display); cursor: pointer; color: var(--ink); text-align: left; }
+table.matrix td button { background: none; border: 0; padding: 0; font: 600 1.15rem var(--display); cursor: pointer; color: var(--ink); text-align: left; }
 table.matrix td button:hover { color: var(--accent); }
 
 /* Fichas */
 .list-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-block: 20px 10px; flex-wrap: wrap; }
-.list-head h3 { margin: 0; font: 700 1.1rem var(--display); }
+.list-head h3 { margin: 0; font: 600 1.4rem var(--display); }
 .list-head span { color: var(--muted); font-size: 0.9rem; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 14px; padding-bottom: 40px; }
 .card { min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; scroll-margin-top: 130px; transition: border-color .2s, box-shadow .2s; }
 .card.sel { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
 .card.done { opacity: 0.62; }
 .card-top { display: flex; justify-content: space-between; gap: 10px; align-items: start; }
-.card h4 { margin: 0; font: 700 1.08rem/1.25 var(--display); text-wrap: balance; cursor: pointer; }
+.card h4 { margin: 0; font: 600 1.25rem/1.2 var(--display); text-wrap: balance; cursor: pointer; }
 .stars { color: var(--star); font-size: 0.85rem; letter-spacing: 1px; flex: none; }
 .meta { display: flex; gap: 6px 10px; flex-wrap: wrap; font-size: 0.82rem; color: var(--muted); align-items: center; }
 .amb { font-weight: 600; }
 .amb.joya-local { color: var(--lava); } .amb.tranquilo { color: var(--laurel); } .amb.concurrido { color: var(--crowd); }
 .card p { margin: 0; font-size: 0.95rem; }
 .card-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: auto; padding-top: 6px; flex-wrap: wrap; }
-.coord { font: 0.75rem var(--mono); color: var(--muted); }
+.coord { font: italic 0.8rem var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
 .go { font-weight: 600; font-size: 0.9rem; text-decoration: none; }
 .go:hover { text-decoration: underline; }
 .seen { display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; cursor: pointer; color: var(--muted); }
