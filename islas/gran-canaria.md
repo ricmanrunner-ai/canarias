@@ -1,44 +1,42 @@
 # Gran Canaria ⬜ pendiente
 
-**Aeropuerto:** LPA (Gando) · **Ideal:** 7 días · **Coche:** imprescindible para el interior
-**Carácter:** un "continente en miniatura", con ciudad grande, dunas, cumbres de pinar y barrancos. Su interior es Reserva de la Biosfera.
-
-## Zonas
-- **Las Palmas de Gran Canaria (norte-este):** capital, Las Canteras y Vegueta.
-- **Cumbre (centro):** Roque Nublo, Tejeda, Artenara, Pico de las Nieves.
-- **Sur:** Maspalomas, Playa del Inglés, Mogán.
-- **Oeste:** Agaete, Valle de Agaete, Tamadaba, La Aldea.
-- **Norte:** Teror, Arucas, Firgas, Gáldar.
+**Aeropuerto:** LPA · **Ideal:** 7 días · **Coche:** imprescindible
+**Dónde dormir:** casa-cueva en Artenara o Acusa, casa rural en Tejeda, Valsequillo o Agaete (El Valle), o en Vegueta si quieres ciudad. El interior y el norte son la Gran Canaria de verdad; el sur turístico, no.
 
 ## Sitios
-| ✔ | Sitio | Tipo | Prioridad | Notas |
-|---|---|---|---|---|
-| ⬜ | Roque Nublo | Ruta | ⭐⭐⭐ | Unos 3 km ida y vuelta desde La Goleta. Hay que madrugar porque el parking se llena. |
-| ⬜ | Pico de las Nieves y Roque Bentayga | Mirador | ⭐⭐⭐ | El techo de la isla. Vista al Teide sobre el mar de nubes. |
-| ⬜ | Tejeda | Pueblo | ⭐⭐⭐ | Uno de los pueblos más bonitos de España. Probar los dulces de almendra (Dulcería Nublo). |
-| ⬜ | Artenara y Cuevas | Pueblo | ⭐⭐ | Casas-cueva y mirador Unamuno. |
-| ⬜ | Dunas de Maspalomas | Naturaleza | ⭐⭐⭐ | Reserva natural. Mejor al amanecer o al atardecer, junto al faro y la charca. |
-| ⬜ | Vegueta y Triana | Ciudad | ⭐⭐⭐ | Casa de Colón, Catedral de Santa Ana y mercado de Vegueta. |
-| ⬜ | Playa de Las Canteras | Playa | ⭐⭐⭐ | Playa urbana con arrecife natural, buena para snorkel. Paseo al atardecer. |
-| ⬜ | Cueva Pintada de Gáldar | Cultura | ⭐⭐⭐ | Yacimiento aborigen con pinturas geométricas. Reservar. |
-| ⬜ | Risco Caído y montañas sagradas | Cultura | ⭐⭐ | Patrimonio Mundial UNESCO (2019). Se visita con centro de interpretación en Artenara. |
-| ⬜ | Valle de Agaete y Puerto de las Nieves | Pueblo | ⭐⭐ | Café de Agaete (se cultiva aquí) y piscinas de Las Salinas. |
-| ⬜ | Pinar de Tamadaba | Naturaleza | ⭐⭐ | |
-| ⬜ | Puerto de Mogán | Pueblo | ⭐⭐ | La "Venecia de Canarias", con mercadillo los viernes. |
-| ⬜ | Teror | Pueblo | ⭐⭐ | Balcones de madera y Basílica del Pino. |
-| ⬜ | Caldera de Bandama | Naturaleza | ⭐⭐ | Se puede bajar al fondo del cráter. |
-| ⬜ | Barranco de Guayadeque | Naturaleza | ⭐⭐ | Restaurantes dentro de cuevas. |
-| ⬜ | Roque Nublo → Presa de Las Niñas / Soria | Ruta | ⭐ | Pinares y presas, zona de acampada. |
-| ⬜ | Playa de Güigüí | Playa | ⭐ | Solo se llega en barco o con una ruta dura. Salvaje. |
-| ⬜ | Arucas (destilería de ron Arehucas) | Cultura | ⭐ | |
-| ⬜ | Charco de San Lorenzo / Roque Prieto | Costa | ⭐ | Piscinas naturales del norte. |
+Ambiente: 🔥 joya local · 🌿 tranquilo · 👥 concurrido (pero merece la pena)
 
-## Comer
-Ropa vieja, papas arrugadas con mojo, queso de flor de Guía (DOP), sancocho canario, bienmesabe de Tejeda, ron miel. Guachinches y bodegones en Santa Brígida y San Mateo.
+| ✔ | Sitio | Tipo | Ambiente | Prioridad | Notas |
+|---|---|---|---|---|---|
+| ⬜ | Acusa Seca y Acusa Verde | Pueblo | 🔥 | ⭐⭐⭐ | Casas-cueva habitadas colgadas sobre los riscos de Artenara. |
+| ⬜ | Risco Caído y las montañas sagradas | Cultura | 🔥 | ⭐⭐⭐ | Patrimonio UNESCO poco visitado. Almogarén aborigen y cuevas. Centro de interpretación en Artenara. |
+| ⬜ | Roque Bentayga | Montaña/cultura | 🌿 | ⭐⭐⭐ | Menos gente que el Nublo y con restos aborígenes. |
+| ⬜ | El Carrizal de Tejeda → Presa del Parralillo | Ruta | 🔥 | ⭐⭐ | Barranco de Tejeda hacia el oeste, sin turismo. |
+| ⬜ | Fortaleza de Ansite (Santa Lucía) | Cultura | 🔥 | ⭐⭐ | Lugar de la última resistencia aborigen. Cuevas atravesables. |
+| ⬜ | Cenobio de Valerón | Cultura | 🌿 | ⭐⭐ | Granero aborigen con cientos de silos excavados en toba. |
+| ⬜ | Cuatro Puertas (Telde) | Cultura | 🔥 | ⭐⭐ | Cueva ceremonial, gratis y a menudo vacía. |
+| ⬜ | Barranco de Azuaje | Naturaleza | 🔥 | ⭐⭐ | Reducto de laurisilva con agua corriente y un antiguo balneario. |
+| ⬜ | Los Tilos de Moya | Naturaleza | 🌿 | ⭐ | El último bosque de laurisilva del norte. |
+| ⬜ | Temisas y Agüimes | Pueblo | 🔥 | ⭐⭐⭐ | Olivares y casas de piedra en Temisas. El casco de Agüimes es precioso y apenas tiene turistas. |
+| ⬜ | Guayadeque | Barranco | 🌿 | ⭐⭐ | Cuevas habitadas y restaurantes-cueva. |
+| ⬜ | Fataga y su barranco | Pueblo | 🌿 | ⭐⭐ | El "barranco de las mil palmeras". |
+| ⬜ | Presa de Chira y Soria | Paisaje | 🌿 | ⭐⭐ | Pinar y agua en la cumbre sur. |
+| ⬜ | El Hornillo (Agaete) | Pueblo | 🔥 | ⭐⭐ | Caserío-cueva en el fondo de un barranco, al final de una carretera estrecha. |
+| ⬜ | El Risco de Agaete y Playa de El Risco | Pueblo/playa | 🔥 | ⭐⭐ | Pueblo del oeste salvaje con playa de callaos al pie del acantilado. |
+| ⬜ | Playa de Güigüí | Playa | 🔥 | ⭐⭐⭐ | Ruta dura desde Tasartico (≈3 h ida) o en barco desde Agaete. Duerme allí con permiso de acampada. |
+| ⬜ | Tamadaba y Faneque | Pinar/ruta | 🌿 | ⭐⭐ | Acantilado de 1.000 m sobre el mar, de los más altos de Europa. |
+| ⬜ | Sardina del Norte (Gáldar) | Playa | 🌿 | ⭐⭐ | Cala de pescadores, buen snorkel y atardecer. |
+| ⬜ | Playa del Cabrón (Arinaga) | Buceo | 🔥 | ⭐⭐ | Reserva de buceo de la gente local. |
+| ⬜ | Pozo Izquierdo | Costa/deporte | 🌿 | ⭐ | Viento extremo, windsurf de élite y nada de turismo. |
+| ⬜ | Atalaya de Santa Brígida | Pueblo | 🔥 | ⭐ | Alfarería tradicional en cuevas. |
+| ⬜ | Vegueta, mercado y Las Canteras | Ciudad | 👥 | ⭐⭐⭐ | Las Palmas es una ciudad de verdad. Paseo de Las Canteras al atardecer, entre locales. |
+| ⬜ | Cueva Pintada de Gáldar | Cultura | 👥 | ⭐⭐⭐ | Reservar. |
+| ⬜ | Roque Nublo | Ruta | 👥 | ⭐⭐ | Solo al amanecer. |
 
-## Consejos
-- Si vas en invierno, el sur (Maspalomas) casi siempre tiene sol, mientras que la capital puede estar nublada ("panza de burro").
-- Es el hub de **Binter**: desde aquí sale cualquier conexión interinsular.
+## Estilo local
+- **Comer:** bodegones de Santa Brígida y San Mateo (vino del Monte), mercado de San Mateo (fines de semana), Bar Perchel o El Puertillo (Arucas), queso de flor de Guía, ropa vieja, cochinillo negro.
+- **Fiestas:** **Bajada de la Rama de Agaete** (4 de agosto, la mejor fiesta de Canarias), Traída del Agua en Lomo Magullo (Telde), Fiesta del Charco en La Aldea (11 de septiembre: se pesca con las manos en un charco), Romería del Pino en Teror (septiembre).
+- **Evitar:** Playa del Inglés, Puerto Rico y Anfi. Puerto de Mogán, salvo a primera hora.
 
 ## Combinable con
-Fuerteventura (ferry de Armas o Fred. Olsen desde Agaete o Las Palmas a Morro Jable, o vuelo de 30 min).
+Fuerteventura en ferry desde Agaete o Las Palmas.

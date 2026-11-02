@@ -1,38 +1,37 @@
 # Lanzarote ✅ visitada
 
-**Aeropuerto:** ACE (Arrecife) · **Ideal:** 5–7 días · **Coche:** muy recomendable
-**Carácter:** isla volcánica y lunar, Reserva de la Biosfera. La obra de César Manrique está por todas partes.
-
-## Zonas
-- **Sur:** Timanfaya, Yaiza, El Golfo, Playa Blanca, Papagayo.
-- **Centro:** La Geria, Teguise, Tahíche (Fundación Manrique), Arrecife.
-- **Norte:** Haría, Jameos del Agua, Cueva de los Verdes, Mirador del Río, Órzola (ferry a La Graciosa), Famara.
+**Aeropuerto:** ACE · **Ideal:** 5–7 días · **Coche:** sí
+**Dónde dormir:** Haría, Máguez, La Caleta de Famara, Femés, Uga o casas rurales en La Geria. Evita Puerto del Carmen, Costa Teguise y Playa Blanca.
 
 ## Sitios
-| ✔ | Sitio | Tipo | Prioridad | Notas |
-|---|---|---|---|---|
-| ⬜ | Parque Nacional de Timanfaya | Naturaleza | ⭐⭐⭐ | Ruta de los Volcanes en guagua desde el Islote de Hilario. Hay rutas a pie guiadas que se reservan gratis. |
-| ⬜ | Jameos del Agua | Manrique | ⭐⭐⭐ | Tubo volcánico con lago y cangrejos ciegos. Algunas noches hay apertura nocturna. |
-| ⬜ | Cueva de los Verdes | Naturaleza | ⭐⭐⭐ | Visita guiada con una sorpresa al final. |
-| ⬜ | Mirador del Río | Manrique | ⭐⭐⭐ | Vista sobre La Graciosa. |
-| ⬜ | Fundación César Manrique (Taro de Tahíche) | Manrique | ⭐⭐⭐ | Su casa construida sobre burbujas de lava. |
-| ⬜ | Casa-Museo Manrique en Haría | Manrique | ⭐⭐ | |
-| ⬜ | La Geria | Paisaje/vino | ⭐⭐⭐ | Viñas plantadas en hoyos de picón. Bodegas El Grifo, Stratvs, La Geria. Malvasía volcánica. |
-| ⬜ | El Golfo y Charco de los Clicos | Costa | ⭐⭐⭐ | Laguna verde. Cerca están Los Hervideros y las Salinas de Janubio. |
-| ⬜ | Playas de Papagayo | Playa | ⭐⭐⭐ | Pista de tierra con peaje. Las mejores calas son Mujeres, Papagayo y Pozo. |
-| ⬜ | Famara | Playa/surf | ⭐⭐ | Bajo el risco, atardeceres y surf. |
-| ⬜ | Jardín de Cactus | Manrique | ⭐⭐ | |
-| ⬜ | Teguise (mercadillo del domingo) | Pueblo | ⭐⭐ | Antigua capital. |
-| ⬜ | Caldera Blanca | Ruta | ⭐⭐ | Senderismo sencillo junto a Mancha Blanca. |
-| ⬜ | Arrecife: Charco de San Ginés y Castillo de San José (MIAC) | Ciudad | ⭐ | |
-| ⬜ | Museo Atlántico (submarino) | Buceo | ⭐ | Esculturas de Jason deCaires Taylor frente a Playa Blanca. |
-| ⬜ | Excursión a La Graciosa | Isla | ⭐⭐⭐ | Ver [la-graciosa.md](la-graciosa.md). |
+Ambiente: 🔥 joya local · 🌿 tranquilo · 👥 concurrido (pero merece la pena)
 
-## Comer
-Papas arrugadas con mojo, cherne, lapas, queso de cabra majorero o local, malvasía de La Geria. Para pescado: El Golfo, La Santa y Arrieta.
+| ✔ | Sitio | Tipo | Ambiente | Prioridad | Notas |
+|---|---|---|---|---|---|
+| ⬜ | Camino de los Gracioseros → Playa del Risco | Ruta/playa | 🔥 | ⭐⭐⭐ | Bajada en zigzag por el risco de Famara a una playa sin acceso en coche, frente a La Graciosa. Subida exigente. |
+| ⬜ | Tenesar | Pueblo | 🔥 | ⭐⭐ | Caserío de pescadores medio abandonado entre lava, en el borde del parque de Timanfaya. Atardecer. |
+| ⬜ | Volcán del Cuervo y Montaña Colorada | Ruta | 🌿 | ⭐⭐⭐ | Rutas gratis y libres por el Parque Natural de Los Volcanes. Es el Timanfaya sin guagua turística. |
+| ⬜ | Rutas guiadas de Timanfaya (Tremesana / Litoral) | Ruta | 🌿 | ⭐⭐⭐ | Gratis con reserva en la web de Parques Nacionales. Mucho mejor que la Ruta de los Volcanes en bus. |
+| ⬜ | Volcán de la Corona y Ye | Ruta | 🌿 | ⭐⭐ | Subida al cráter del volcán que formó Jameos y Cueva de los Verdes. |
+| ⬜ | Caleta de Famara | Pueblo/surf | 🔥 | ⭐⭐⭐ | Calles de arena, surferos y gente local. Pescado en El Risco. |
+| ⬜ | Charco del Palo | Costa | 🔥 | ⭐⭐ | Piscinas en la roca. Es zona naturista. |
+| ⬜ | Arrieta y Punta Mujeres | Pueblo/costa | 🌿 | ⭐⭐ | Charcos de baño de la gente local del norte. Casa Juanita en Arrieta para comer pescado. |
+| ⬜ | Caletón Blanco y Playa de la Cantería (Órzola) | Playa | 🌿 | ⭐⭐ | Arena blanca y lava negra. La Cantería es salvaje y está bajo el risco. |
+| ⬜ | Los Valles y Ermita de las Nieves | Paisaje | 🔥 | ⭐⭐ | Interior agrícola y mirador sobre Famara, la zona más alta de la isla. |
+| ⬜ | Haría y Máguez | Pueblo | 🌿 | ⭐⭐⭐ | El "valle de las mil palmeras". Mercado de artesanía los sábados. |
+| ⬜ | Femés | Pueblo | 🔥 | ⭐⭐ | Balcón sobre Playa Blanca y Rubicón. Cordero y queso. |
+| ⬜ | Masdache y La Geria por pistas | Vino | 🌿 | ⭐⭐⭐ | Bodegas pequeñas (Vega de Yuco, Los Bermejos, Bodega Tisalaya) en lugar de las grandes. |
+| ⬜ | Playa de Janubio y Salinas | Costa | 🌿 | ⭐⭐ | Arena negra brava. Sal artesana. |
+| ⬜ | Playa del Paso / Caletas de Papagayo de punta a punta | Playa | 🌿 | ⭐⭐ | Andando por la costa desde Playa Mujeres hasta Puerto Muelas, las calas que no salen en Instagram. |
+| ⬜ | Jameos del Agua / Mirador del Río / Fundación Manrique | Manrique | 👥 | ⭐⭐⭐ | Merecen la pena. Ve a primera hora o en la apertura nocturna de Jameos. |
+
+## Estilo local
+- **Comer:** Casa Juanita (Arrieta), El Risco (Famara), Bodega de Uga, tascas de Tinajo, cherne y lapas.
+- **Fiestas:** Romería de Los Dolores (Mancha Blanca, septiembre), Carnaval de Arrecife y los Buches (Arrecife), San Ginés (agosto).
+- **Evitar:** Puerto del Carmen, Costa Teguise, Playa Blanca, Rancho Texas y Museo Atlántico si no buceas.
 
 ## Desde aquí
-Ferry Playa Blanca → Corralejo (Fuerteventura), unos 25 min: una buena forma de juntar las dos islas en un viaje.
+Ferry a Corralejo (Fuerteventura) o a La Graciosa desde Órzola.
 
 ## Mis notas del viaje
 _(qué vi, qué me quedó pendiente)_

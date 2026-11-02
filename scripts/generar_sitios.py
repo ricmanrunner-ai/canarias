@@ -10,18 +10,20 @@ import re
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 ISLAS = RAIZ / "islas"
 SALIDA = RAIZ / "data" / "sitios.csv"
+AMBIENTE = {"🔥": "joya local", "🌿": "tranquilo", "👥": "concurrido"}
 
 
 def filas(md: pathlib.Path):
     isla = re.sub(r"[#✅⬜]|visitada|pendiente", "", md.read_text(encoding="utf-8").splitlines()[0]).strip()
     for linea in md.read_text(encoding="utf-8").splitlines():
         celdas = [c.strip() for c in linea.strip().strip("|").split("|")]
-        if len(celdas) == 5 and celdas[0] in ("⬜", "✅"):
-            check, sitio, tipo, prio, notas = celdas
+        if len(celdas) == 6 and celdas[0] in ("⬜", "✅"):
+            check, sitio, tipo, amb, prio, notas = celdas
             yield {
                 "isla": isla,
                 "sitio": sitio,
                 "tipo": tipo,
+                "ambiente": AMBIENTE.get(amb, amb),
                 "prioridad": prio.count("⭐"),
                 "visitado": "si" if check == "✅" else "no",
                 "notas": notas,

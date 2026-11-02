@@ -1,23 +1,26 @@
 # La Gomera ⬜ pendiente
 
-**Llegar:** ferry desde Los Cristianos (Tenerife Sur), unos 50 min, o Binter vía TFN a GMZ · **Ideal:** 3–5 días (o una excursión de 1 día desde Tenerife) · **Coche:** sí
-**Carácter:** isla redonda de barrancos profundos y bosque de laurisilva prehistórica. Es tranquila, rural y de senderismo. Tiene el silbo gomero, Patrimonio UNESCO.
+**Llegar:** ferry Los Cristianos → San Sebastián (≈50 min) o Binter vía TFN · **Ideal:** 4–5 días, nunca solo una excursión de un día · **Coche:** sí
+**Dónde dormir:** casa rural en Las Hayas, Chipude, Agulo, Hermigua o Taguluche. Valle Gran Rey solo en La Calera, el casco alto.
 
 ## Sitios
-| ✔ | Sitio | Tipo | Prioridad | Notas |
-|---|---|---|---|---|
-| ⬜ | Parque Nacional de Garajonay | Naturaleza | ⭐⭐⭐ | Patrimonio UNESCO. Ruta del Alto de Garajonay y Raso de la Bruma. |
-| ⬜ | Valle Gran Rey | Valle/playa | ⭐⭐⭐ | Terrazas de cultivo y ambiente alternativo, con atardeceres. |
-| ⬜ | Los Órganos | Costa | ⭐⭐⭐ | Columnas basálticas que solo se ven en barco. |
-| ⬜ | Mirador de Abrante | Mirador | ⭐⭐ | Pasarela de cristal sobre Agulo. |
-| ⬜ | Agulo y Hermigua | Pueblo | ⭐⭐ | Pueblos del norte. Piscina natural de Hermigua. |
-| ⬜ | Roque de Agando | Mirador | ⭐⭐ | El "perfil" de La Gomera. |
-| ⬜ | Playa del Inglés (Valle Gran Rey) / Playa de Alojera | Playa | ⭐ | |
-| ⬜ | San Sebastián – Torre del Conde y Casa de Colón | Cultura | ⭐ | Colón hizo aquí su última escala antes de llegar a América. |
-| ⬜ | Exhibición de silbo gomero | Cultura | ⭐⭐ | En restaurantes como Las Rosas (Agulo). |
+Ambiente: 🔥 joya local · 🌿 tranquilo · 👥 concurrido (pero merece la pena)
 
-## Comer
-Almogrote (paté de queso curado y pimienta), miel de palma, potaje de berros, vino de Vallehermoso.
+| ✔ | Sitio | Tipo | Ambiente | Prioridad | Notas |
+|---|---|---|---|---|---|
+| ⬜ | La Fortaleza de Chipude | Montaña/cultura | 🔥 | ⭐⭐⭐ | Meseta sagrada aborigen. Subida corta y vertiginosa con vistas a toda la isla. |
+| ⬜ | El Cercado | Pueblo | 🔥 | ⭐⭐⭐ | Alfarería gomera hecha sin torno, como hace 2.000 años. |
+| ⬜ | Las Hayas – Casa Efigenia | Gastro | 🔥 | ⭐⭐⭐ | Potaje y gofio en una casa de pueblo. Es una institución. |
+| ⬜ | Garajonay por el Contadero → El Cedro | Ruta | 🌿 | ⭐⭐⭐ | Laurisilva y musgo hasta la ermita de Lourdes y el caserío de El Cedro. |
+| ⬜ | Imada | Pueblo | 🔥 | ⭐⭐ | Caserío en lo alto de un barranco del sur, sin salida. |
+| ⬜ | Taguluche y Arure | Pueblo | 🔥 | ⭐⭐ | El oeste más aislado. Mirador del Santo. |
+| ⬜ | Playa de La Caleta (Hermigua) | Playa | 🌿 | ⭐⭐ | Cala de callaos con un chiringuito local. |
+| ⬜ | Vallehermoso y Roque Cano | Pueblo | 🌿 | ⭐⭐ | Pueblo del norte. Ruta a Chorros de Epina. |
+| ⬜ | Agulo y Mirador de Abrante | Pueblo | 🌿 | ⭐⭐ | El pueblo más bonito de la isla. |
+| ⬜ | Ermita de Guadalupe (Puntallana) | Cultura | 🔥 | ⭐ | Ermita junto al mar. Cada 5 años salen de aquí las Bajadas de la Virgen. |
+| ⬜ | Los Órganos en barco | Costa | 👥 | ⭐⭐ | Elige un barco pequeño desde Valle Gran Rey. |
 
-## Consejos
-Mejor dormir al menos 2 noches: la isla es más bonita sin las excursiones de un día.
+## Estilo local
+- **Comer:** almogrote, miel de palma, potaje de berros, cabra en salsa, vino de Vallehermoso y gomerón (licor de miel de palma).
+- **Silbo:** se enseña en las escuelas. En fiestas de pueblo lo oirás de verdad, no en espectáculo.
+- **Fiestas:** Bajada de la Virgen de Guadalupe (cada 5 años, octubre), tambor y chácaras en cualquier fiesta de pueblo.

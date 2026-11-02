@@ -1,36 +1,31 @@
 # La Palma ⬜ pendiente
 
-**Aeropuerto:** SPC (Mazo) · **Ideal:** 5–7 días · **Coche:** imprescindible (curvas, muchas curvas)
-**Carácter:** "La Isla Bonita". Es verde y montañosa, Reserva de la Biosfera y Reserva Starlight. En 2021 tuvo la erupción del volcán Tajogaite.
-
-## Zonas
-- **Este:** Santa Cruz de La Palma, Los Sauces y Los Tilos.
-- **Centro:** Caldera de Taburiente, El Paso, Cumbre Vieja.
-- **Oeste:** Los Llanos de Aridane, Tazacorte, zona del volcán 2021.
-- **Sur:** Fuencaliente, volcán San Antonio y Teneguía, salinas.
-- **Norte:** Roque de los Muchachos, Garafía, Barlovento.
+**Aeropuerto:** SPC · **Ideal:** 6–7 días · **Coche:** imprescindible
+**Dónde dormir:** casa rural en Garafía, Puntagorda, Tijarafe o Barlovento. Santa Cruz si quieres ciudad pequeña. La isla entera es de bajo turismo; evita solo Los Cancajos y Puerto Naos.
 
 ## Sitios
-| ✔ | Sitio | Tipo | Prioridad | Notas |
-|---|---|---|---|---|
-| ⬜ | Parque Nacional Caldera de Taburiente | Naturaleza | ⭐⭐⭐ | Ruta clásica: Los Brecitos → Playa de Taburiente → Cascada de Colores → Los Llanos (taxi 4x4 hasta Los Brecitos). Mirador de La Cumbrecita con reserva. |
-| ⬜ | Roque de los Muchachos | Mirador/ciencia | ⭐⭐⭐ | 2.426 m, sobre el mar de nubes. Observatorio (visitas guiadas). |
-| ⬜ | Observación de estrellas | Astronomía | ⭐⭐⭐ | Miradores astronómicos repartidos por la isla. |
-| ⬜ | Los Tilos y Marcos y Cordero | Naturaleza | ⭐⭐⭐ | Laurisilva, cascadas y túneles (frontal y chubasquero). Reserva/lanzadera en temporada. |
-| ⬜ | Ruta de los Volcanes | Ruta | ⭐⭐⭐ | Cumbre Vieja, unos 18 km lineales del Refugio del Pilar a Fuencaliente. |
-| ⬜ | Volcán Tajogaite (2021) | Volcán | ⭐⭐⭐ | Visitas guiadas al nuevo cono y miradores sobre la colada. |
-| ⬜ | Santa Cruz de La Palma | Ciudad | ⭐⭐ | Balcones de la Avenida Marítima y Barco de la Virgen. |
-| ⬜ | Volcán San Antonio y Teneguía | Volcán | ⭐⭐ | Centro de visitantes en Fuencaliente. |
-| ⬜ | Salinas de Fuencaliente y faro | Costa | ⭐⭐ | |
-| ⬜ | Charco Azul y La Fajana | Piscina natural | ⭐⭐ | En el norte. |
-| ⬜ | Puerto de Tazacorte / Playa Nueva | Playa | ⭐ | |
-| ⬜ | Bosque de Los Tilos – Mirador Espigón Atravesado | Mirador | ⭐ | |
-| ⬜ | Petroglifos de La Zarza (Garafía) | Cultura | ⭐⭐ | |
-| ⬜ | Bodegas de Fuencaliente | Gastro | ⭐ | Malvasía. |
+Ambiente: 🔥 joya local · 🌿 tranquilo · 👥 concurrido (pero merece la pena)
 
-## Comer
-Mojo palmero, queso palmero ahumado, almendrados, bienmesabe, rapaduras, vinos de Fuencaliente y tabaco (puros palmeros).
+| ✔ | Sitio | Tipo | Ambiente | Prioridad | Notas |
+|---|---|---|---|---|---|
+| ⬜ | Poris de Candelaria (Tijarafe) | Costa | 🔥 | ⭐⭐⭐ | Casitas de pescadores construidas dentro de una gran cueva marina. Bajada a pie empinada. |
+| ⬜ | Ruta de los Dragos de Las Tricias (Garafía) | Ruta | 🔥 | ⭐⭐⭐ | Dragos centenarios y las cuevas de Buracas con grabados aborígenes. |
+| ⬜ | Santo Domingo de Garafía y su puerto | Pueblo | 🔥 | ⭐⭐ | El noroeste olvidado: acantilados, cementerio sobre el mar y ganado. |
+| ⬜ | Caldera de Taburiente desde Los Brecitos | Ruta | 🌿 | ⭐⭐⭐ | Bajada hasta la Playa de Taburiente, la Cascada de Colores y salida por el Barranco de las Angustias. Mejor dormir en la zona de acampada (permiso). |
+| ⬜ | Ruta de los Volcanes (Cumbre Vieja) | Ruta | 🌿 | ⭐⭐⭐ | Unos 18 km desde el Refugio del Pilar hasta Fuencaliente. Pocas personas y lava de todas las edades. |
+| ⬜ | Marcos y Cordero → Los Tilos | Ruta | 👥 | ⭐⭐⭐ | Túneles con agua y laurisilva. Lleva frontal y chubasquero. |
+| ⬜ | Volcán Tajogaite (2021) | Volcán | 🌿 | ⭐⭐⭐ | Visitas guiadas con gente local. Hablar con quienes lo vivieron es parte del viaje. |
+| ⬜ | Roque de los Muchachos de noche | Astronomía | 🌿 | ⭐⭐⭐ | Lleva abrigo porque está a 2.400 m. Atardecer sobre el mar de nubes. |
+| ⬜ | Playa de Nogales (Puntallana) | Playa | 🔥 | ⭐⭐ | Arena negra al pie del acantilado. No te bañes con mar fuerte. |
+| ⬜ | Puerto Espíndola y Charco Azul | Costa | 🌿 | ⭐⭐ | Piscinas naturales del noreste. |
+| ⬜ | La Fajana (Barlovento) | Piscina natural | 🔥 | ⭐⭐ | |
+| ⬜ | El Time y Mirador de El Time | Mirador | 🌿 | ⭐⭐ | Vista sobre el Valle de Aridane y la nueva costa de lava. |
+| ⬜ | Puerto de Puntagorda y almendros en flor | Costa/paisaje | 🔥 | ⭐⭐ | La Fiesta del Almendro en Flor se celebra en febrero. |
+| ⬜ | Pino de la Virgen y El Paso | Pueblo | 🌿 | ⭐ | Telares de seda artesanales en El Paso (Las Hilanderas). |
+| ⬜ | Santa Cruz de La Palma | Ciudad | 🌿 | ⭐⭐ | Calle Real y balcones. Muy auténtica. |
+| ⬜ | Salinas de Fuencaliente | Costa | 👥 | ⭐ | |
 
-## Consejos
-- Calcula tiempos generosos porque las carreteras son lentas.
-- Directo desde Madrid; desde el norte, mejor Binter vía TFN.
+## Estilo local
+- **Comer:** Casa Goyo (cerca del aeropuerto, pescado), Bodegón Tamanca (restaurante en una cueva), mojo palmero, queso palmero ahumado, rapaduras. Bodegas Teneguía o vino de tea en el norte.
+- **Fiestas:** **Los Indianos** (lunes de carnaval en Santa Cruz: todo de blanco y lluvia de polvos de talco), Bajada de la Virgen de las Nieves (cada 5 años, próxima en 2030), Diablo de Tijarafe (8 de septiembre: un diablo de fuegos artificiales).
+- **Evitar:** Los Cancajos y Puerto Naos, aunque son poca cosa.

@@ -19,13 +19,22 @@ Repositorio para tener analizados los sitios de las Islas Canarias, isla por isl
 
 Detalle completo en **[vuelos.md](vuelos.md)** y en bruto en [`data/vuelos.csv`](data/vuelos.csv).
 
+## Estilo de viaje
+
+Este repositorio no es una guía para turistas de pulsera. Las reglas que sigue:
+- **Prioriza los sitios 🔥 (joya local) y 🌿 (tranquilo).** Los 👥 aparecen solo si de verdad merecen la pena, siempre con el truco para evitar a la gente (madrugar, entrar por otro lado, ir a pie).
+- **Dormir en pueblos:** casas rurales, casas-cueva o cascos históricos. Nunca en complejos de costa.
+- **Comer donde come la gente local:** guachinches, bodegones, ventas, cofradías de pescadores y mercados.
+- **Ir a fiestas de pueblo:** romerías, bajadas y carnavales locales. Cada ficha tiene su calendario.
+- Cada ficha tiene una lista de **zonas a evitar**.
+
 ## Estructura
 
 ```
 README.md          ← esto
 vuelos.md          ← matriz de vuelos + cómo llegar a las islas sin directo
 mis-viajes.md      ← diario de viajes y lista de deseos
-islas/*.md         ← una ficha por isla: zonas, sitios, playas, rutas, comer, consejos
+islas/*.md         ← una ficha por isla: sitios con ambiente y prioridad, dónde dormir, comer, fiestas, qué evitar
 data/vuelos.csv    ← datos de rutas (para filtrar / actualizar)
 data/sitios.csv    ← todos los sitios en una tabla (se genera con scripts/generar_sitios.py)
 scripts/           ← utilidades

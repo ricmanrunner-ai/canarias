@@ -1,17 +1,17 @@
 # La Graciosa ⬜ pendiente
 
-**Llegar:** volar a Lanzarote (ACE) y ferry Órzola → Caleta de Sebo (≈25 min, Líneas Romero / Biosfera Express) · **Ideal:** excursión de 1 día o 1–2 noches · **Coche:** no hay carreteras asfaltadas; se va a pie, en bici o en taxi 4x4
-**Carácter:** la octava isla (desde 2018). Calles de arena, calma total, Parque Natural del Archipiélago Chinijo.
+**Llegar:** volar a ACE y ferry Órzola → Caleta de Sebo (≈25 min) · **Ideal:** 2 noches, no como excursión de un día · **Coche:** no hay. Se va a pie, en bici o en taxi 4x4
+**Truco:** a partir de las 17:00, cuando se van los excursionistas, la isla es otra.
 
 ## Sitios
-| ✔ | Sitio | Tipo | Prioridad | Notas |
-|---|---|---|---|---|
-| ⬜ | Playa de Las Conchas | Playa | ⭐⭐⭐ | Vista a Montaña Clara. Fuertes corrientes. |
-| ⬜ | Playa Francesa | Playa | ⭐⭐⭐ | Agua turquesa y tranquila, a 30 min a pie. |
-| ⬜ | Montaña Amarilla | Ruta/playa | ⭐⭐ | |
-| ⬜ | Caleta de Sebo | Pueblo | ⭐⭐ | Pescado fresco en el puerto. |
-| ⬜ | Pedro Barba | Pueblo | ⭐ | |
-| ⬜ | Vuelta en bici a la isla | Actividad | ⭐⭐ | Alquiler en el puerto. |
+Ambiente: 🔥 joya local · 🌿 tranquilo · 👥 concurrido (pero merece la pena)
 
-## Consejos
-Dormir una noche para disfrutar la isla sin excursiones. Lleva agua y protección solar porque casi no hay sombra.
+| ✔ | Sitio | Tipo | Ambiente | Prioridad | Notas |
+|---|---|---|---|---|---|
+| ⬜ | Montaña Bermeja y Playa de Las Conchas | Ruta/playa | 🌿 | ⭐⭐⭐ | Subida al volcán rojo sobre Las Conchas. Baño con mucho cuidado. |
+| ⬜ | Playa Lambra | Playa | 🔥 | ⭐⭐ | En el extremo norte, la menos visitada. |
+| ⬜ | Pedro Barba | Pueblo | 🔥 | ⭐⭐ | Caserío de casas blancas casi vacío. |
+| ⬜ | Playa de La Cocina y Montaña Amarilla | Playa | 🌿 | ⭐⭐ | Al atardecer. |
+| ⬜ | Playa Francesa | Playa | 👥 | ⭐⭐ | Ve temprano. |
+| ⬜ | Caleta de Sebo de noche | Pueblo | 🔥 | ⭐⭐ | Calles de arena, cielo estrellado y pescado en el puerto. |
+| ⬜ | Snorkel en la Reserva Marina del Archipiélago Chinijo | Mar | 🌿 | ⭐⭐ | La mayor reserva marina de Europa. |
