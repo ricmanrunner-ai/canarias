@@ -1,0 +1,105 @@
+isla,sitio,tipo,prioridad,visitado,notas
+El Hierro,El Sabinar,Naturaleza,3,no,Sabinas retorcidas por el viento. Es el símbolo de la isla.
+El Hierro,Mirador de la Peña (Manrique),Mirador,3,no,Vista al Valle de El Golfo y restaurante.
+El Hierro,Valle de El Golfo,Paisaje,3,no,Anfiteatro gigante formado por un deslizamiento.
+El Hierro,Charco Azul,Piscina natural,3,no,
+El Hierro,La Maceta / Charco Manso / Pozo de las Calcosas,Costa,2,no,Piscinas y poblado de piedra.
+El Hierro,Mar de Las Calmas (La Restinga),Buceo,3,no,"Reserva marina, uno de los mejores puntos de buceo de Europa."
+El Hierro,Faro de Orchilla y Meridiano Cero,Costa,2,no,Antiguo meridiano 0 y paisaje volcánico.
+El Hierro,Ermita de los Reyes,Cultura,1,no,"Bajada de la Virgen, cada 4 años (próxima en 2029)."
+El Hierro,Mirador de Jinama / Isora / Las Playas,Mirador,2,no,
+El Hierro,Árbol Garoé,Cultura,2,no,"Árbol sagrado aborigen que ""producía agua""."
+El Hierro,Tamaduste y Roques de Salmor,Costa,1,no,
+Fuerteventura,Parque Natural de las Dunas de Corralejo,Naturaleza,3,no,Dunas blancas junto al mar.
+Fuerteventura,Isla de Lobos,Isla,3,no,Barco desde Corralejo. **Permiso gratuito** obligatorio (Cabildo). Playa de La Concha y subida a la Montaña de Lobos.
+Fuerteventura,Playa de Cofete y Villa Winter,Playa,3,no,20 km de playa virgen bajo las montañas de Jandía. Pista de tierra; no es apta para el baño por las corrientes.
+Fuerteventura,Playas de Sotavento (Risco del Paso),Playa,3,no,Lagunas en marea baja. Kite y windsurf.
+Fuerteventura,Cuevas de Ajuy,Geología,3,no,Las rocas más antiguas de Canarias.
+Fuerteventura,Betancuria,Pueblo,2,no,"Primera capital de Canarias (1404). Cerca, el mirador Morro Velosa."
+Fuerteventura,El Cotillo y sus lagos,Playa,2,no,Lagunas tranquilas al norte y atardeceres en el oeste.
+Fuerteventura,Mirador de Sicasumbre,Mirador,2,no,Mirador astronómico.
+Fuerteventura,Calderón Hondo,Ruta,2,no,Cráter cerca de Lajares.
+Fuerteventura,Montaña de Tindaya,Cultura,1,no,Montaña sagrada aborigen (solo vista exterior).
+Fuerteventura,Faro de Punta Jandía y El Puertito,Costa,1,no,
+Fuerteventura,Queserías del queso majorero (DOP),Gastro,2,no,
+Gran Canaria,Roque Nublo,Ruta,3,no,Unos 3 km ida y vuelta desde La Goleta. Hay que madrugar porque el parking se llena.
+Gran Canaria,Pico de las Nieves y Roque Bentayga,Mirador,3,no,El techo de la isla. Vista al Teide sobre el mar de nubes.
+Gran Canaria,Tejeda,Pueblo,3,no,Uno de los pueblos más bonitos de España. Probar los dulces de almendra (Dulcería Nublo).
+Gran Canaria,Artenara y Cuevas,Pueblo,2,no,Casas-cueva y mirador Unamuno.
+Gran Canaria,Dunas de Maspalomas,Naturaleza,3,no,"Reserva natural. Mejor al amanecer o al atardecer, junto al faro y la charca."
+Gran Canaria,Vegueta y Triana,Ciudad,3,no,"Casa de Colón, Catedral de Santa Ana y mercado de Vegueta."
+Gran Canaria,Playa de Las Canteras,Playa,3,no,"Playa urbana con arrecife natural, buena para snorkel. Paseo al atardecer."
+Gran Canaria,Cueva Pintada de Gáldar,Cultura,3,no,Yacimiento aborigen con pinturas geométricas. Reservar.
+Gran Canaria,Risco Caído y montañas sagradas,Cultura,2,no,Patrimonio Mundial UNESCO (2019). Se visita con centro de interpretación en Artenara.
+Gran Canaria,Valle de Agaete y Puerto de las Nieves,Pueblo,2,no,Café de Agaete (se cultiva aquí) y piscinas de Las Salinas.
+Gran Canaria,Pinar de Tamadaba,Naturaleza,2,no,
+Gran Canaria,Puerto de Mogán,Pueblo,2,no,"La ""Venecia de Canarias"", con mercadillo los viernes."
+Gran Canaria,Teror,Pueblo,2,no,Balcones de madera y Basílica del Pino.
+Gran Canaria,Caldera de Bandama,Naturaleza,2,no,Se puede bajar al fondo del cráter.
+Gran Canaria,Barranco de Guayadeque,Naturaleza,2,no,Restaurantes dentro de cuevas.
+Gran Canaria,Roque Nublo → Presa de Las Niñas / Soria,Ruta,1,no,"Pinares y presas, zona de acampada."
+Gran Canaria,Playa de Güigüí,Playa,1,no,Solo se llega en barco o con una ruta dura. Salvaje.
+Gran Canaria,Arucas (destilería de ron Arehucas),Cultura,1,no,
+Gran Canaria,Charco de San Lorenzo / Roque Prieto,Costa,1,no,Piscinas naturales del norte.
+La Gomera,Parque Nacional de Garajonay,Naturaleza,3,no,Patrimonio UNESCO. Ruta del Alto de Garajonay y Raso de la Bruma.
+La Gomera,Valle Gran Rey,Valle/playa,3,no,"Terrazas de cultivo y ambiente alternativo, con atardeceres."
+La Gomera,Los Órganos,Costa,3,no,Columnas basálticas que solo se ven en barco.
+La Gomera,Mirador de Abrante,Mirador,2,no,Pasarela de cristal sobre Agulo.
+La Gomera,Agulo y Hermigua,Pueblo,2,no,Pueblos del norte. Piscina natural de Hermigua.
+La Gomera,Roque de Agando,Mirador,2,no,"El ""perfil"" de La Gomera."
+La Gomera,Playa del Inglés (Valle Gran Rey) / Playa de Alojera,Playa,1,no,
+La Gomera,San Sebastián – Torre del Conde y Casa de Colón,Cultura,1,no,Colón hizo aquí su última escala antes de llegar a América.
+La Gomera,Exhibición de silbo gomero,Cultura,2,no,En restaurantes como Las Rosas (Agulo).
+La Graciosa,Playa de Las Conchas,Playa,3,no,Vista a Montaña Clara. Fuertes corrientes.
+La Graciosa,Playa Francesa,Playa,3,no,"Agua turquesa y tranquila, a 30 min a pie."
+La Graciosa,Montaña Amarilla,Ruta/playa,2,no,
+La Graciosa,Caleta de Sebo,Pueblo,2,no,Pescado fresco en el puerto.
+La Graciosa,Pedro Barba,Pueblo,1,no,
+La Graciosa,Vuelta en bici a la isla,Actividad,2,no,Alquiler en el puerto.
+La Palma,Parque Nacional Caldera de Taburiente,Naturaleza,3,no,Ruta clásica: Los Brecitos → Playa de Taburiente → Cascada de Colores → Los Llanos (taxi 4x4 hasta Los Brecitos). Mirador de La Cumbrecita con reserva.
+La Palma,Roque de los Muchachos,Mirador/ciencia,3,no,"2.426 m, sobre el mar de nubes. Observatorio (visitas guiadas)."
+La Palma,Observación de estrellas,Astronomía,3,no,Miradores astronómicos repartidos por la isla.
+La Palma,Los Tilos y Marcos y Cordero,Naturaleza,3,no,"Laurisilva, cascadas y túneles (frontal y chubasquero). Reserva/lanzadera en temporada."
+La Palma,Ruta de los Volcanes,Ruta,3,no,"Cumbre Vieja, unos 18 km lineales del Refugio del Pilar a Fuencaliente."
+La Palma,Volcán Tajogaite (2021),Volcán,3,no,Visitas guiadas al nuevo cono y miradores sobre la colada.
+La Palma,Santa Cruz de La Palma,Ciudad,2,no,Balcones de la Avenida Marítima y Barco de la Virgen.
+La Palma,Volcán San Antonio y Teneguía,Volcán,2,no,Centro de visitantes en Fuencaliente.
+La Palma,Salinas de Fuencaliente y faro,Costa,2,no,
+La Palma,Charco Azul y La Fajana,Piscina natural,2,no,En el norte.
+La Palma,Puerto de Tazacorte / Playa Nueva,Playa,1,no,
+La Palma,Bosque de Los Tilos – Mirador Espigón Atravesado,Mirador,1,no,
+La Palma,Petroglifos de La Zarza (Garafía),Cultura,2,no,
+La Palma,Bodegas de Fuencaliente,Gastro,1,no,Malvasía.
+Lanzarote,Parque Nacional de Timanfaya,Naturaleza,3,no,Ruta de los Volcanes en guagua desde el Islote de Hilario. Hay rutas a pie guiadas que se reservan gratis.
+Lanzarote,Jameos del Agua,Manrique,3,no,Tubo volcánico con lago y cangrejos ciegos. Algunas noches hay apertura nocturna.
+Lanzarote,Cueva de los Verdes,Naturaleza,3,no,Visita guiada con una sorpresa al final.
+Lanzarote,Mirador del Río,Manrique,3,no,Vista sobre La Graciosa.
+Lanzarote,Fundación César Manrique (Taro de Tahíche),Manrique,3,no,Su casa construida sobre burbujas de lava.
+Lanzarote,Casa-Museo Manrique en Haría,Manrique,2,no,
+Lanzarote,La Geria,Paisaje/vino,3,no,"Viñas plantadas en hoyos de picón. Bodegas El Grifo, Stratvs, La Geria. Malvasía volcánica."
+Lanzarote,El Golfo y Charco de los Clicos,Costa,3,no,Laguna verde. Cerca están Los Hervideros y las Salinas de Janubio.
+Lanzarote,Playas de Papagayo,Playa,3,no,"Pista de tierra con peaje. Las mejores calas son Mujeres, Papagayo y Pozo."
+Lanzarote,Famara,Playa/surf,2,no,"Bajo el risco, atardeceres y surf."
+Lanzarote,Jardín de Cactus,Manrique,2,no,
+Lanzarote,Teguise (mercadillo del domingo),Pueblo,2,no,Antigua capital.
+Lanzarote,Caldera Blanca,Ruta,2,no,Senderismo sencillo junto a Mancha Blanca.
+Lanzarote,Arrecife: Charco de San Ginés y Castillo de San José (MIAC),Ciudad,1,no,
+Lanzarote,Museo Atlántico (submarino),Buceo,1,no,Esculturas de Jason deCaires Taylor frente a Playa Blanca.
+Lanzarote,Excursión a La Graciosa,Isla,3,no,Ver [la-graciosa.md](la-graciosa.md).
+Tenerife,Parque Nacional del Teide,Naturaleza,3,no,Teleférico (reservar). Para subir al pico hace falta un **permiso gratuito** que se agota con meses de antelación. Atardecer en Minas de San José.
+Tenerife,Roques de García,Mirador/ruta,3,no,"Ruta circular fácil de 3,5 km a los pies del Teide."
+Tenerife,Cielo nocturno del Teide,Astronomía,3,no,De los mejores cielos de Europa. Hay tours con telescopio.
+Tenerife,Macizo de Anaga,Naturaleza,3,no,"Laurisilva. Sendero de los Sentidos (Cruz del Carmen), Roque de Taborno, Chinamada."
+Tenerife,San Cristóbal de La Laguna,Ciudad,3,no,"Patrimonio UNESCO, casco histórico colonial y ambiente universitario."
+Tenerife,Masca y su barranco,Pueblo/ruta,3,no,"Carretera espectacular. Barranco con **reserva y tasa**, bajada hasta el mar y barco de vuelta."
+Tenerife,Acantilados de Los Gigantes,Costa,2,no,"Mejor verlos en barco, a veces con cetáceos."
+Tenerife,Garachico,Pueblo,2,no,Pueblo histórico con las piscinas naturales de El Caletón.
+Tenerife,La Orotava,Pueblo,2,no,Casa de los Balcones y jardines Victoria.
+Tenerife,Puerto de la Cruz,Pueblo,2,no,Lago Martiánez (César Manrique) y Jardín Botánico.
+Tenerife,Punta de Teno y faro,Costa,2,no,Acceso restringido a coches; se va en guagua o bici.
+Tenerife,Benijo / Roque de las Bodegas,Playa,2,no,"Arena negra salvaje en Anaga, ideal al atardecer."
+Tenerife,Playa de Las Teresitas,Playa,1,no,Arena dorada (traída del Sáhara) junto a San Andrés.
+Tenerife,El Médano y Montaña Roja,Playa/deporte,2,no,"Kite/windsurf, ambiente relajado."
+Tenerife,Icod de los Vinos – Drago Milenario,Cultura,1,no,
+Tenerife,Pirámides de Güímar,Cultura,1,no,
+Tenerife,Santa Cruz: Auditorio y mercado Nuestra Señora de África,Ciudad,1,no,Carnaval en febrero.

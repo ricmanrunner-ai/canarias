@@ -1,0 +1,24 @@
+origen,destino,isla,aerolineas,frecuencia,temporada,estado,ultima_revision
+MAD,TFN,Tenerife,"Iberia Express; Air Europa; Binter; Vueling",varios diarios,todo el año,confirmado,2026-11
+MAD,TFS,Tenerife,"Iberia Express; Ryanair; Air Europa",varios diarios,todo el año,confirmado,2026-11
+MAD,LPA,Gran Canaria,"Iberia Express; Air Europa; Ryanair; Binter",muchos diarios,todo el año,confirmado,2026-11
+MAD,ACE,Lanzarote,"Iberia Express; Ryanair; Binter",varios diarios,todo el año,confirmado,2026-11
+MAD,FUE,Fuerteventura,"Iberia Express; Ryanair; Binter",varios diarios,todo el año,verificar,2026-11
+MAD,SPC,La Palma,"Iberia Express; Vueling/Iberia (estacional)",diario,todo el año,confirmado,2026-11
+MAD,GMZ,La Gomera,"Binter vía TFN / ferry desde TFS",escala,todo el año,sin directo,2026-11
+MAD,VDE,El Hierro,"Binter vía TFN / ferry desde TFS",escala,todo el año,sin directo,2026-11
+SDR,TFN,Tenerife,Binter,varios semanales,todo el año,verificar,2026-11
+SDR,TFS,Tenerife,Ryanair,semanal,variable,verificar,2026-11
+SDR,LPA,Gran Canaria,"Binter; Vueling (estacional)",3/semana (Binter),todo el año,confirmado,2026-11
+SDR,ACE,Lanzarote,Binter,martes y sábado,desde 2026-03-31,confirmado,2026-11
+SDR,FUE,Fuerteventura,"Binter vía LPA/TFN",escala,todo el año,sin directo,2026-11
+SDR,SPC,La Palma,"Binter vía TFN",escala,todo el año,sin directo,2026-11
+SDR,GMZ,La Gomera,"Binter vía TFN",escala,todo el año,sin directo,2026-11
+SDR,VDE,El Hierro,"Binter vía TFN",escala,todo el año,sin directo,2026-11
+BIO,LPA,Gran Canaria,"Vueling; Air Europa (según agregadores)",varios semanales,todo el año,confirmado,2026-11
+BIO,TFN,Tenerife,Vueling,varios semanales,todo el año,verificar,2026-11
+BIO,TFS,Tenerife,"Vueling; Ryanair",variable,estacional,verificar,2026-11
+BIO,ACE,Lanzarote,Vueling,variable,estacional,verificar,2026-11
+BIO,FUE,Fuerteventura,Vueling,variable,estacional,verificar,2026-11
+BIO,SPC,La Palma,"vía MAD o TFN",escala,todo el año,sin directo,2026-11
+VIT,LPA,Gran Canaria,Binter,lunes y jueves,todo el año,confirmado,2026-11
